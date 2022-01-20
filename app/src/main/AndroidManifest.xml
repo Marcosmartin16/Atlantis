@@ -10,27 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atlantis">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".LoginActivity"
+            android:name=".SecondActivity"
             android:exported="true"
-            android:theme="@style/Theme.Atlantis_NAB">
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.Atlantis_NAB" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Atlantis_NAB">
         </activity>
         <activity
             android:name=".SignupActvity"
             android:exported="true"
-            android:theme="@style/Theme.Atlantis_NAB">
-        </activity>
+            android:theme="@style/Theme.Atlantis_NAB"></activity>
     </application>
-
-
 
 </manifest>

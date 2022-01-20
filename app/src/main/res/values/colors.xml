@@ -19,4 +19,5 @@
     <color name="morado_titulo">#9E26EE</color>
     <color name="amarillo_titulo">#D2E905</color>
     <color name="azulc_titulo">#3BCED4</color>
+    <color name="semi_transparent">#66000000</color>
 </resources>

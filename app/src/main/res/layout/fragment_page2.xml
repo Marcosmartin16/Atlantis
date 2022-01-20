@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CLP"
+    tools:context=".fragments.Page2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/CLP"
     android:background="@drawable/gradient">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -43,6 +45,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="20dp"
+                    android:drawableLeft="@drawable/ic_email"/>
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:hint="Usuario"
                     android:inputType="text"
                     android:maxLines="1"
@@ -66,17 +82,16 @@
                     android:textSize="20dp"
                     android:drawableLeft="@drawable/ic_password"/>
 
-
-                <TextView
-                    android:id="@+id/tvAccount"
+                <CheckBox
+                    android:id="@+id/checkBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="120dp"
-                    android:text="¿No tienes cuenta? Desliza"
-                    android:textColor="@color/white"
-                    android:textSize="15dp"
-                    app:layout_constraintEnd_toEndOf="@id/etPassword"
-                    app:layout_constraintTop_toBottomOf="@id/etPassword" />
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:checked="false"
+                    android:text="Acepto los términos y las condiciones"
+                    android:textColor="@color/white" />
 
 
                 <Button
@@ -84,8 +99,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
-                    android:layout_marginTop="100dp"
                     android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
                     android:text="Entrar"
                     style="@style/btn_entrar"/>
 
@@ -208,4 +223,5 @@
         app:layout_constraintHorizontal_bias="0.954"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

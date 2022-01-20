@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CLP"
+    tools:context=".fragments.Page1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/CLP"
     android:background="@drawable/gradient">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -43,28 +45,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/ic_user"
                     android:hint="Usuario"
                     android:inputType="text"
                     android:maxLines="1"
                     android:padding="8dp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="20dp"
-                    android:drawableLeft="@drawable/ic_user"/>
+                    android:textSize="20dp" />
 
                 <EditText
                     android:id="@+id/etPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/ic_password"
                     android:hint="Contraseña"
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:padding="8dp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="20dp"
-                    android:drawableLeft="@drawable/ic_password"/>
+                    android:textSize="20dp" />
 
 
                 <TextView
@@ -72,7 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="120dp"
-                    android:text="¿No tienes cuenta? Desliza"
+                    android:text="¿No tienes cuenta? Crear una"
                     android:textColor="@color/white"
                     android:textSize="15dp"
                     app:layout_constraintEnd_toEndOf="@id/etPassword"
@@ -81,13 +83,13 @@
 
                 <Button
                     android:id="@+id/btn_entrar"
+                    style="@style/btn_entrar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="100dp"
                     android:layout_marginRight="8dp"
-                    android:text="Entrar"
-                    style="@style/btn_entrar"/>
+                    android:text="Entrar" />
 
 
             </LinearLayout>
