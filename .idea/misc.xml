@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/fragment_second.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/login_activity.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/login_fragment.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/signup_activity.xml" value="0.19427083333333334" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page1.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page2.xml" value="0.22" />
