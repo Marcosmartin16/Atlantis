@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mybutton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">11dp</item>
+        <item name="strokeColor">@color/yellow</item>
+    </style>
+
+</resources>
