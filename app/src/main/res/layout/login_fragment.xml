@@ -136,7 +136,9 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="100dp"
                     android:layout_marginRight="8dp"
-                    android:text="Entrar" />
+                    android:text="Entrar"
+                    app:strokeColor="@color/amarillo"
+                    app:strokeWidth="2dp" />
 
 
             </LinearLayout>
