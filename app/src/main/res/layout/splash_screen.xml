@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient">
+
+   /* ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fondo"
+        android:scaleType="fitStart" */
+
+    <ImageView
+        android:id="@+id/ajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pompa1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintLeft_toLeftOf="@id/gv2"
+        app:layout_constraintBottom_toTopOf="@id/gh1"/>
+
+    <ImageView
+        android:id="@+id/pompa2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintTop_toBottomOf="@id/gh1"
+        app:layout_constraintRight_toRightOf="@id/gv2"/>
+
+    <ImageView
+        android:id="@+id/pompa3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintLeft_toLeftOf="@id/gv1"
+        app:layout_constraintBottom_toTopOf="@id/gh2"/>
+
+    <ImageView
+        android:id="@+id/pompa4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintBottom_toTopOf="@id/gh2"
+        app:layout_constraintLeft_toRightOf="@id/gv3"/>
+
+    <ImageView
+        android:id="@+id/pompa5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintBottom_toTopOf="@id/gh4"
+        app:layout_constraintLeft_toLeftOf="@id/gv1"/>
+
+    <ImageView
+        android:id="@+id/pompa6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintTop_toBottomOf="@id/gh3"
+        app:layout_constraintRight_toRightOf="@id/gv4"/>
+
+    <ImageView
+        android:id="@+id/pompa7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintLeft_toLeftOf="@id/gv3"
+        app:layout_constraintBottom_toTopOf="@id/gh4"/>
+
+    <ImageView
+        android:id="@+id/pompa8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/pompa_foreground"
+        app:layout_constraintBottom_toTopOf="@id/gh3"
+        app:layout_constraintLeft_toRightOf="@id/gv4"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.28"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.72"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.32"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
