@@ -9,37 +9,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Atlantis">
+
         <activity
             android:name=".SplashScreen"
-            android:exported="true"
-            android:label="@string/title_activity_second"
-            android:theme="@style/Theme.Atlantis.Dark" >
-
-        </activity>
-        <activity
-            android:name=".SecondActivity"
-            android:exported="true"
-            android:label="@string/title_activity_second"
-            android:theme="@style/Theme.Atlantis.Dark"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.Atlantis.Dark" >
+        </activity>
+
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true">
+        </activity>
+
         <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.Atlantis.Dark">
         </activity>
+
         <activity
             android:name=".SignupActvity"
             android:exported="true"
-            android:theme="@style/Theme.Atlantis.Dark"></activity>
+            android:theme="@style/Theme.Atlantis.Dark">
+        </activity>
     </application>
 
 </manifest>
