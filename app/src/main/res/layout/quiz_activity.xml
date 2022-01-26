@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/verde">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Selecciona la respuesta correcta"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tvTiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="00:59"
+            android:textColor="@color/black"></TextView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvPreguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background=""
+        android:elevation="1dp"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="1/10"
+        android:textColor="#1F6BB8"></TextView>
+
+    <TextView
+        android:id="@+id/pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_light_yellow"
+        android:text="Aquí irá la pregunta..."
+        android:gravity="center"
+        android:minHeight="100dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/respuesta1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Primera opción"
+        android:textAllCaps="false"
+        android:textColor="#1F6BB8"
+        android:background="@drawable/round_back_white_stroke2"
+        android:layout_marginEnd="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/respuesta2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Segunda opción"
+        android:textAllCaps="false"
+        android:textColor="#1F6BB8"
+        android:background="@drawable/round_back_white_stroke2"
+        android:layout_marginEnd="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/respuesta3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Tercera opción"
+        android:textAllCaps="false"
+        android:textColor="#1F6BB8"
+        android:background="@drawable/round_back_white_stroke2"
+        android:layout_marginEnd="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/respuesta4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Cuarta opción"
+        android:textAllCaps="false"
+        android:textColor="#1F6BB8"
+        android:background="@drawable/round_back_white_stroke2"
+        android:layout_marginEnd="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Siguiente"
+        android:textAllCaps="false"
+        android:textColor="#1F6BB8"
+
+        android:background="@drawable/round_back_green_stroke2"
+        android:layout_marginEnd="20dp"/>
+
+
+</LinearLayout>

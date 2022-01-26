@@ -10,18 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atlantis">
         <activity
+            android:name=".QuizResults"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:label="@string/title_activity_second"
-            android:theme="@style/Theme.Atlantis.Dark" >
-
-        </activity>
-        <activity
-            android:name=".SecondActivity"
-            android:exported="true"
-            android:label="@string/title_activity_second"
-            android:theme="@style/Theme.Atlantis.Dark"
-            >
+            android:theme="@style/Theme.Atlantis.Dark">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,17 +24,21 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SecondActivity"
+            android:exported="true"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.Atlantis.Dark"></activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.Atlantis.Dark">
-        </activity>
+            android:theme="@style/Theme.Atlantis.Dark"></activity>
         <activity
             android:name=".SignupActvity"
             android:exported="true"
-            android:theme="@style/Theme.Atlantis.Dark"></activity>
+            android:theme="@style/Theme.Atlantis.Dark" />
     </application>
 
 </manifest>
