@@ -4,7 +4,58 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-   /* ImageView
+    <ImageView
+        android:id="@+id/loginalgaroja"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="-57dp"
+        android:layout_marginBottom="-200dp"
+        android:src="@drawable/algaroja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1" />
+
+    <ImageView
+        android:id="@+id/loginalga2"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="-150dp"
+        android:layout_marginEnd="-350dp"
+        android:layout_marginBottom="-200dp"
+        android:src="@drawable/alga3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ajo"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1" />
+
+    <ImageView
+        android:id="@+id/loginalga3"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginEnd="-150dp"
+        android:layout_marginBottom="-200dp"
+        android:src="@drawable/alga4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ajo"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1" />
+
+    <ImageView
+        android:id="@+id/loginalga1"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="-120dp"
+        android:layout_marginBottom="-130dp"
+        android:src="@drawable/alga1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    /* ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/fondo"
