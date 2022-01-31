@@ -12,16 +12,18 @@
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/ic_burger_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_light_yellow.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_white_stroke2.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/timer_btn.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/font/satisfy.xml" value="0.234375" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_quiz_results.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page1.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page2.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_activity.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_fragment.xml" value="0.1" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/quiz_activity.xml" value="0.14641744548286603" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/quiz_activity.xml" value="0.36960985626283366" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/signup_activity.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.20416666666666666" />
