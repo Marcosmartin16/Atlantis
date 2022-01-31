@@ -19,8 +19,6 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-        getSupportActionBar().hide();
-
         openApp(true);
 
         ImageView pompa1 = findViewById(R.id.pompa1);
