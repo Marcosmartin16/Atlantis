@@ -50,7 +50,6 @@
         <activity
             android:name=".SeleccionHistoria"
             android:exported="true">
-
         </activity>
 
         <activity
