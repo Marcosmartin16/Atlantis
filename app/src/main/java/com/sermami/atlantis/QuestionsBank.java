@@ -74,7 +74,7 @@ public class QuestionsBank {
 
     }
 
-    public static List<QuestionsList> getQuestions(String selectedAnimal){
+   public static List<QuestionsList> getQuestions(String selectedAnimal){
         switch (selectedAnimal){
             case "ajolote":
                 return animal1Questions();
@@ -84,4 +84,5 @@ public class QuestionsBank {
                 return animal3Questions();
         }
     }
+
 }
