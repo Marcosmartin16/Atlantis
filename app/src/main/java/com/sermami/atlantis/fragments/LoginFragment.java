@@ -15,7 +15,7 @@ import com.sermami.atlantis.QuizResults;
 import com.sermami.atlantis.R;
 import com.sermami.atlantis.SignupActvity;
 
-public class Page1 extends Fragment {
+public class LoginFragment extends Fragment {
 
     Button entrar;
 

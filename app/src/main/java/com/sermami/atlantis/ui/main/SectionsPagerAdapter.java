@@ -3,14 +3,12 @@ package com.sermami.atlantis.ui.main;
 import android.content.Context;
 
 import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.sermami.atlantis.R;
-import com.sermami.atlantis.fragments.Page1;
-import com.sermami.atlantis.fragments.Page2;
+import com.sermami.atlantis.fragments.LoginFragment;
+import com.sermami.atlantis.fragments.SignUpFragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -35,9 +33,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch(position){
 
             case 0:
-                return new Page1();
+                return new LoginFragment();
             case 1:
-                return new Page2();
+                return new SignUpFragment();
             default:
                 return null;
         }
