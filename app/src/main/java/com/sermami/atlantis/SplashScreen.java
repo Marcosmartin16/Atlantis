@@ -10,6 +10,8 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+
 public class SplashScreen extends AppCompatActivity {
 
     @Override
@@ -20,6 +22,8 @@ public class SplashScreen extends AppCompatActivity {
         getSupportActionBar().hide();
 
         openApp(true);
+
+        ImageView ajolote = findViewById(R.id.ajo);
 
         ImageView pompa1 = findViewById(R.id.pompa1);
         ImageView pompa2 = findViewById(R.id.pompa2);
@@ -40,6 +44,10 @@ public class SplashScreen extends AppCompatActivity {
         pompa6.startAnimation(scale);
         pompa7.startAnimation(scale);
         pompa8.startAnimation(scale);
+
+        Animation transition = AnimationUtils.loadAnimation(this,R.anim.transition);
+        ajolote.startAnimation(transition);
+
     }
 
     public void openApp(boolean locationPermission){
@@ -54,6 +62,6 @@ public class SplashScreen extends AppCompatActivity {
 
                 startActivity(intent);
             }
-        }, 3000);
+        }, 6000);
     }
 }

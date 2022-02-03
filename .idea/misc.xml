@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable-v24/gradiente.xml" value="0.2203125" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable-v24/round_back_green_stroke2.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/back_btn.xml" value="0.1785" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/btn_entrar.xml" value="0.2203125" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/gradient.xml" value="0.2203125" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/gradiente.xml" value="0.2203125" />
@@ -12,34 +13,24 @@
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/ic_burger_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_light_yellow.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_white_stroke2.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/timer_btn.xml" value="0.2169230769230769" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/font/satisfy.xml" value="0.234375" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_historia.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_quiz_results.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page1.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page2.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_activity.xml" value="0.22" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_fragment.xml" value="0.1" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/quiz_activity.xml" value="0.14641744548286603" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_fragment.xml" value="0.18" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/quiz_activity.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/signup_activity.xml" value="0.22" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/signup_fragment.xml" value="0.1408514492753623" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_second.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_activity.xml" value="0.28306159420289856" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis/app/src/main/res/layout/signup_activity.xml" value="0.28306159420289856" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/fragment_second.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/login_activity.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/login_fragment.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/am15dam2/AndroidStudioProjects/Atlantis2/app/src/main/res/layout/signup_activity.xml" value="0.19427083333333334" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.22" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page1.xml" value="0.22" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/fragment_page2.xml" value="0.22" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/login_fragment.xml" value="0.22" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/signup_fragment.xml" value="0.22" />
-        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>
