@@ -28,10 +28,10 @@
                <ImageView
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:src="@mipmap/ajolote"
-                   android:padding="15dp"
+                   android:layout_alignParentRight="true"
                    android:layout_centerVertical="true"
-                   android:layout_alignParentRight="true"/>
+                   android:padding="15dp"
+                   android:src="@mipmap/ajolote" />
            </RelativeLayout>
 
            <TextView
@@ -57,34 +57,26 @@
                    android:layout_marginBottom="20dp"
                    android:background="@drawable/round_back_white_main">
 
+                   <ImageView
+                       android:id="@+id/imgAjolote"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/ajolote_historia" />
+
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
                        android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
                        android:text="Ajolote"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_alignParentBottom="true"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:text="Leer"
-                       android:textColor="@color/rojo_titulo" />
+                       android:textSize="25sp" />
 
 
                </RelativeLayout>
 
-               <ImageView
-                   android:id="@+id/imgAjolote"
-                   android:layout_width="150dp"
-                   android:layout_height="150dp"
-                   android:layout_alignParentRight="true"
-                   android:layout_marginTop="-40dp"
-                   android:src="@drawable/ajolote_historia" />
 
            </RelativeLayout>
 
@@ -115,17 +107,7 @@
                        android:padding="25dp"
                        android:text="Caballito de mar"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:text="Leer"
-                       android:textColor="@color/rojo_titulo" />
+                       android:textSize="25sp" />
 
                </RelativeLayout>
 
@@ -144,34 +126,26 @@
                    android:layout_marginBottom="20dp"
                    android:background="@drawable/round_back_white_main">
 
+                   <ImageView
+                       android:id="@+id/imgTortuga"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/tortuga_historia" />
+
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
                        android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
-                       android:text="Tortuga"
+                       android:text="Tortuga marina"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_alignParentBottom="true"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:text="Leer"
-                       android:textColor="@color/rojo_titulo" />
+                       android:textSize="25sp" />
 
 
                </RelativeLayout>
 
-               <ImageView
-                   android:id="@+id/imgTortuga"
-                   android:layout_width="150dp"
-                   android:layout_height="150dp"
-                   android:layout_alignParentRight="true"
-                   android:layout_marginTop="-15dp"
-                   android:src="@drawable/tortuga_historia" />
 
            </RelativeLayout>
 
@@ -202,17 +176,7 @@
                        android:padding="25dp"
                        android:text="Ballena azul"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:text="Leer"
-                       android:textColor="@color/rojo_titulo" />
+                       android:textSize="25sp" />
 
                </RelativeLayout>
 
@@ -231,34 +195,24 @@
                    android:layout_marginBottom="20dp"
                    android:background="@drawable/round_back_white_main">
 
+                   <ImageView
+                       android:id="@+id/imgCoral"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/coral_historia" />
+
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
                        android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
                        android:text="Coral"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_alignParentBottom="true"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:text="Leer"
-                       android:textColor="@color/rojo_titulo" />
-
-
+                       android:textSize="25sp" />
                </RelativeLayout>
 
-               <ImageView
-                   android:id="@+id/imgCoral"
-                   android:layout_width="150dp"
-                   android:layout_height="150dp"
-                   android:layout_alignParentRight="true"
-                   android:layout_marginTop="-40dp"
-                   android:src="@drawable/coral_historia" />
 
            </RelativeLayout>
 
@@ -289,17 +243,7 @@
                        android:padding="25dp"
                        android:text="Langosta"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:text="Leer"
-                       android:textColor="@color/rojo_titulo" />
+                       android:textSize="25sp" />
 
                </RelativeLayout>
 
@@ -315,34 +259,26 @@
                    android:background="@drawable/round_back_white_main"
                    android:layout_margin="20dp">
 
+                   <ImageView
+                       android:id="@+id/imgLoboMarino"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/lobomarino_historia" />
+
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
                        android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
                        android:text="Lobo marino"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Leer"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:textColor="@color/rojo_titulo"
-                       android:layout_alignParentBottom="true"/>
+                       android:textSize="25sp" />
 
 
                </RelativeLayout>
 
-               <ImageView
-                   android:id="@+id/imgLoboMarino"
-                   android:layout_width="150dp"
-                   android:layout_height="150dp"
-                   android:layout_alignParentRight="true"
-                   android:layout_marginTop="-15dp"
-                   android:src="@drawable/lobomarino_historia" />
 
            </RelativeLayout>
 
@@ -362,29 +298,18 @@
                        android:id="@+id/imgPezGlobo"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
-                       android:src="@drawable/pezglobo_historia"
-                       android:layout_marginLeft="20dp"/>
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/pezglobo_historia" />
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Pez globo"
+                       android:layout_alignParentRight="true"
                        android:fontFamily="@font/rowdies_regular"
-                       android:textSize="30sp"
-                       android:layout_alignParentRight="true"
+                       android:padding="25dp"
+                       android:text="Pez globo"
                        android:textColor="@color/azul_titulo"
-                       android:padding="25dp"/>
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Leer"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:textColor="@color/rojo_titulo"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"/>
-
+                       android:textSize="25sp" />
                </RelativeLayout>
 
            </androidx.cardview.widget.CardView>
@@ -399,34 +324,25 @@
                    android:background="@drawable/round_back_white_main"
                    android:layout_margin="20dp">
 
+                   <ImageView
+                       android:id="@+id/imgNarval"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/narval_historia" />
+
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
+                       android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
                        android:text="Narval"
-                       android:fontFamily="@font/rowdies_regular"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Leer"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:textColor="@color/rojo_titulo"
-                       android:layout_alignParentBottom="true"/>
+                       android:textSize="25sp" />
 
 
                </RelativeLayout>
-
-               <ImageView
-                   android:id="@+id/imgNarval"
-                   android:layout_width="150dp"
-                   android:layout_height="150dp"
-                   android:layout_alignParentRight="true"
-                   android:layout_marginTop="-15dp"
-                   android:src="@drawable/narval_historia" />
 
            </RelativeLayout>
 
@@ -446,29 +362,18 @@
                        android:id="@+id/imgAnemona"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
-                       android:src="@drawable/anemona_historia"
-                       android:layout_marginLeft="20dp"/>
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/anemona_historia" />
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Anémona de mar"
+                       android:layout_alignParentRight="true"
                        android:fontFamily="@font/rowdies_regular"
-                       android:textSize="30sp"
-                       android:layout_alignParentRight="true"
+                       android:padding="25dp"
+                       android:text="Anémona de mar"
                        android:textColor="@color/azul_titulo"
-                       android:padding="25dp"/>
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Leer"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:textColor="@color/rojo_titulo"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"/>
-
+                       android:textSize="25sp" />
                </RelativeLayout>
 
            </androidx.cardview.widget.CardView>
@@ -483,34 +388,24 @@
                    android:background="@drawable/round_back_white_main"
                    android:layout_margin="20dp">
 
+                   <ImageView
+                       android:id="@+id/imgTiburon"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/tiburon_historia" />
+
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
+                       android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
                        android:text="Tiburón anguila"
-                       android:fontFamily="@font/rowdies_regular"
                        android:textColor="@color/azul_titulo"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Leer"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:textColor="@color/rojo_titulo"
-                       android:layout_alignParentBottom="true"/>
-
-
+                       android:textSize="25sp" />
                </RelativeLayout>
 
-               <ImageView
-                   android:id="@+id/imgFoca"
-                   android:layout_width="150dp"
-                   android:layout_height="150dp"
-                   android:layout_alignParentRight="true"
-                   android:layout_marginTop="-15dp"
-                   android:src="@drawable/tiburon_historia" />
 
            </RelativeLayout>
 
@@ -527,10 +422,11 @@
                    android:background="@drawable/round_back_white_main">
 
                    <ImageView
+                       android:id="@+id/imgFoca"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
-                       android:src="@drawable/foca_historia"
-                       android:layout_marginLeft="20dp"/>
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/foca_historia" />
 
                    <TextView
                        android:layout_width="wrap_content"
@@ -539,19 +435,8 @@
                        android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
                        android:text="Foca"
-                       android:textColor="@color/white"
-                       android:textSize="30sp" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Leer"
-                       android:background="@android:color/transparent"
-                       android:padding="20dp"
-                       android:textColor="@color/white"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"/>
-
+                       android:textColor="@color/azul_titulo"
+                       android:textSize="25sp" />
                </RelativeLayout>
 
            </androidx.cardview.widget.CardView>
