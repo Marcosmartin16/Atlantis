@@ -18,12 +18,12 @@
                android:layout_width="match_parent"
                android:layout_height="?actionBarSize">
 
-              <ImageView
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:src="@drawable/back_btn"
-                  android:padding="15dp"
-                  android:layout_centerVertical="true"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:padding="15dp"
+                   android:src="@drawable/back_btn" />
 
                <ImageView
                    android:layout_width="wrap_content"
@@ -37,9 +37,10 @@
            <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="Categorias"
+               android:text="Historias"
                android:textSize="30sp"
                android:textColor="@color/black"
+               android:fontFamily="@font/rowdies_light"
                android:textAllCaps="true"
                android:padding="10dp"/>
 
@@ -50,35 +51,40 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@drawable/round_back_green_stroke2"
-                   android:layout_margin="20dp">
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_back_white_main">
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
-                       android:text="Alquilo a Marcos"
-                       android:textColor="@color/black"
+                       android:text="Ajolote"
+                       android:textColor="@color/azul_titulo"
                        android:textSize="30sp" />
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:layout_alignParentBottom="true"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/black"
-                       android:layout_alignParentBottom="true"/>
+                       android:text="Leer"
+                       android:textColor="@color/rojo_titulo" />
 
 
                </RelativeLayout>
 
                <ImageView
+                   android:id="@+id/imgAjolote"
                    android:layout_width="150dp"
                    android:layout_height="150dp"
-                   android:src="@mipmap/ajolote"
+                   android:layout_alignParentRight="true"
                    android:layout_marginTop="-40dp"
-                   android:layout_alignParentRight="true"/>
+                   android:src="@drawable/ajolote_historia" />
 
            </RelativeLayout>
 
@@ -92,32 +98,34 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/rojo_titulo">
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
+                       android:id="@+id/imgCaballito"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
                        android:layout_marginLeft="20dp"
-                       android:src="@drawable/alga3" />
+                       android:src="@drawable/caballito_historia" />
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Alquilo a Marcos"
-                       android:textSize="30sp"
                        android:layout_alignParentRight="true"
-                       android:textColor="@color/white"
-                       android:padding="25dp"/>
+                       android:fontFamily="@font/rowdies_regular"
+                       android:padding="25dp"
+                       android:text="Caballito de mar"
+                       android:textColor="@color/azul_titulo"
+                       android:textSize="30sp" />
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentBottom="true"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/white"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"/>
+                       android:text="Leer"
+                       android:textColor="@color/rojo_titulo" />
 
                </RelativeLayout>
 
@@ -130,35 +138,40 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/white"
-                   android:layout_margin="20dp">
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_back_white_main">
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
-                       android:text="Hospital"
-                       android:textColor="@color/morado"
+                       android:text="Tortuga"
+                       android:textColor="@color/azul_titulo"
                        android:textSize="30sp" />
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:layout_alignParentBottom="true"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/morado"
-                       android:layout_alignParentBottom="true"/>
+                       android:text="Leer"
+                       android:textColor="@color/rojo_titulo" />
 
 
                </RelativeLayout>
 
                <ImageView
+                   android:id="@+id/imgTortuga"
                    android:layout_width="150dp"
                    android:layout_height="150dp"
                    android:layout_alignParentRight="true"
                    android:layout_marginTop="-15dp"
-                   android:src="@drawable/alga1" />
+                   android:src="@drawable/tortuga_historia" />
 
            </RelativeLayout>
 
@@ -172,32 +185,34 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/black">
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
+                       android:id="@+id/imgBallena"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
-                       android:src="@drawable/alga3"
-                       android:layout_marginLeft="20dp"/>
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/ballena_historia" />
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Alquilo a Marcos"
-                       android:textSize="30sp"
                        android:layout_alignParentRight="true"
-                       android:textColor="@color/white"
-                       android:padding="25dp"/>
+                       android:fontFamily="@font/rowdies_regular"
+                       android:padding="25dp"
+                       android:text="Ballena azul"
+                       android:textColor="@color/azul_titulo"
+                       android:textSize="30sp" />
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentBottom="true"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/white"
-                       android:layout_alignParentRight="true"
-                       android:layout_alignParentBottom="true"/>
+                       android:text="Leer"
+                       android:textColor="@color/rojo_titulo" />
 
                </RelativeLayout>
 
@@ -210,35 +225,40 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/amarillo_titulo"
-                   android:layout_margin="20dp">
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_back_white_main">
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
+                       android:fontFamily="@font/rowdies_regular"
                        android:padding="25dp"
-                       android:text="Alquilo a Marcos"
-                       android:textColor="@color/black"
+                       android:text="Coral"
+                       android:textColor="@color/azul_titulo"
                        android:textSize="30sp" />
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:layout_alignParentBottom="true"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/black"
-                       android:layout_alignParentBottom="true"/>
+                       android:text="Leer"
+                       android:textColor="@color/rojo_titulo" />
 
 
                </RelativeLayout>
 
                <ImageView
+                   android:id="@+id/imgCoral"
                    android:layout_width="150dp"
                    android:layout_height="150dp"
-                   android:src="@mipmap/ajolote"
+                   android:layout_alignParentRight="true"
                    android:layout_marginTop="-40dp"
-                   android:layout_alignParentRight="true"/>
+                   android:src="@drawable/coral_historia" />
 
            </RelativeLayout>
 
@@ -252,30 +272,116 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/rojo_titulo">
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
+                       android:id="@+id/imgLangosta"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
-                       android:src="@drawable/alga3"
+                       android:layout_marginLeft="20dp"
+                       android:src="@drawable/langosta_historia" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
+                       android:fontFamily="@font/rowdies_regular"
+                       android:padding="25dp"
+                       android:text="Langosta"
+                       android:textColor="@color/azul_titulo"
+                       android:textSize="30sp" />
+
+                   <Button
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentBottom="true"
+                       android:background="@android:color/transparent"
+                       android:padding="20dp"
+                       android:text="Leer"
+                       android:textColor="@color/rojo_titulo" />
+
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="190dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:background="@drawable/round_back_white_main"
+                   android:layout_margin="20dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/rowdies_regular"
+                       android:padding="25dp"
+                       android:text="Lobo marino"
+                       android:textColor="@color/azul_titulo"
+                       android:textSize="30sp" />
+
+                   <Button
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Leer"
+                       android:background="@android:color/transparent"
+                       android:padding="20dp"
+                       android:textColor="@color/rojo_titulo"
+                       android:layout_alignParentBottom="true"/>
+
+
+               </RelativeLayout>
+
+               <ImageView
+                   android:id="@+id/imgLoboMarino"
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginTop="-15dp"
+                   android:src="@drawable/lobomarino_historia" />
+
+           </RelativeLayout>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardBackgroundColor="#00000000"
+               android:layout_margin="20dp"
+               android:elevation="8dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:background="@drawable/round_back_white_main">
+
+                   <ImageView
+                       android:id="@+id/imgPezGlobo"
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/pezglobo_historia"
                        android:layout_marginLeft="20dp"/>
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Alquilo a Marcos"
+                       android:text="Pez globo"
+                       android:fontFamily="@font/rowdies_regular"
                        android:textSize="30sp"
                        android:layout_alignParentRight="true"
-                       android:textColor="@color/white"
+                       android:textColor="@color/azul_titulo"
                        android:padding="25dp"/>
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:text="Leer"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/white"
+                       android:textColor="@color/rojo_titulo"
                        android:layout_alignParentRight="true"
                        android:layout_alignParentBottom="true"/>
 
@@ -290,35 +396,37 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/white"
+                   android:background="@drawable/round_back_white_main"
                    android:layout_margin="20dp">
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
                        android:padding="25dp"
-                       android:text="Hospital"
-                       android:textColor="@color/morado"
+                       android:text="Narval"
+                       android:fontFamily="@font/rowdies_regular"
+                       android:textColor="@color/azul_titulo"
                        android:textSize="30sp" />
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:text="Leer"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
-                       android:textColor="@color/morado"
+                       android:textColor="@color/rojo_titulo"
                        android:layout_alignParentBottom="true"/>
 
 
                </RelativeLayout>
 
                <ImageView
+                   android:id="@+id/imgNarval"
                    android:layout_width="150dp"
                    android:layout_height="150dp"
                    android:layout_alignParentRight="true"
                    android:layout_marginTop="-15dp"
-                   android:src="@drawable/alga1" />
+                   android:src="@drawable/narval_historia" />
 
            </RelativeLayout>
 
@@ -332,27 +440,112 @@
                <RelativeLayout
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@color/black">
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
+                       android:id="@+id/imgAnemona"
                        android:layout_width="120dp"
                        android:layout_height="match_parent"
-                       android:src="@drawable/alga3"
+                       android:src="@drawable/anemona_historia"
                        android:layout_marginLeft="20dp"/>
 
                    <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Alquilo a Marcos"
+                       android:text="Anémona de mar"
+                       android:fontFamily="@font/rowdies_regular"
                        android:textSize="30sp"
                        android:layout_alignParentRight="true"
-                       android:textColor="@color/white"
+                       android:textColor="@color/azul_titulo"
                        android:padding="25dp"/>
 
                    <Button
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Vale"
+                       android:text="Leer"
+                       android:background="@android:color/transparent"
+                       android:padding="20dp"
+                       android:textColor="@color/rojo_titulo"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentBottom="true"/>
+
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="190dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:background="@drawable/round_back_white_main"
+                   android:layout_margin="20dp">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:padding="25dp"
+                       android:text="Tiburón anguila"
+                       android:fontFamily="@font/rowdies_regular"
+                       android:textColor="@color/azul_titulo"
+                       android:textSize="30sp" />
+
+                   <Button
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Leer"
+                       android:background="@android:color/transparent"
+                       android:padding="20dp"
+                       android:textColor="@color/rojo_titulo"
+                       android:layout_alignParentBottom="true"/>
+
+
+               </RelativeLayout>
+
+               <ImageView
+                   android:id="@+id/imgFoca"
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginTop="-15dp"
+                   android:src="@drawable/tiburon_historia" />
+
+           </RelativeLayout>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardBackgroundColor="#00000000"
+               android:layout_margin="20dp"
+               android:elevation="8dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:background="@drawable/round_back_white_main">
+
+                   <ImageView
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/foca_historia"
+                       android:layout_marginLeft="20dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
+                       android:fontFamily="@font/rowdies_regular"
+                       android:padding="25dp"
+                       android:text="Foca"
+                       android:textColor="@color/white"
+                       android:textSize="30sp" />
+
+                   <Button
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Leer"
                        android:background="@android:color/transparent"
                        android:padding="20dp"
                        android:textColor="@color/white"
