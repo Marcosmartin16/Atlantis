@@ -11,8 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.sermami.atlantis.MainActivity;
-import com.sermami.atlantis.QuizActivity;
-import com.sermami.atlantis.QuizResults;
 import com.sermami.atlantis.R;
 
 public class LoginFragment extends Fragment {

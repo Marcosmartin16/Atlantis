@@ -1,6 +1,5 @@
 package com.sermami.atlantis;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -27,17 +26,17 @@ public class QuizActivity extends AppCompatActivity {
 
     private Button volver;
 
-    private Timer quizTimer;
+    private Timer tiempoPreguntas;
 
 
-    private int totalTimeInMins = 1;
-    private int seconds = 0;
+    private int tiempoEnMins = 1;
+    private int segundos = 0;
 
-    private List<QuestionsList> questionsLists;
+    private List<ListaPreguntas> listaPreguntas;
 
-    private int currentQuestionPosition = 0;
+    private int posActualPregunta = 0;
 
-    private String selectedOptionByUser = "";
+    private String respuestaUsuario = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +44,7 @@ public class QuizActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
 
         final TextView reloj = findViewById(R.id.tvTiempo);
-        final TextView selectedTopicName = findViewById(R.id.tvTitulo);
+        final TextView temaElegido = findViewById(R.id.tvTitulo);
 
 
         preguntas = findViewById(R.id.tvTitulo);
@@ -59,34 +58,34 @@ public class QuizActivity extends AppCompatActivity {
         siguiente = findViewById(R.id.siguiente);
 
 
-        final String getSelectedTopicName = getIntent().getStringExtra("selectedTopic");
+        final String getTemaElegido = getIntent().getStringExtra("selectedTopic");
 
-        selectedTopicName.setText(getSelectedTopicName);
+        temaElegido.setText(getTemaElegido);
 
-        questionsLists = QuestionsBank.getQuestions(getSelectedTopicName);
+        listaPreguntas = ArrayListPreguntas.getPreguntas(getTemaElegido);
 
-        empezarTimer(reloj);
+        empezarCrono(reloj);
 
-        preguntas.setText((currentQuestionPosition + 1) + "/" + questionsLists.size());
-        pregunta.setText(questionsLists.get(0).getPregunta());
-        respuesta1.setText(questionsLists.get(0).getRespuest1());
-        respuesta2.setText(questionsLists.get(0).getRespuesta2());
-        respuesta3.setText(questionsLists.get(0).getRespuesta3());
-        respuesta4.setText(questionsLists.get(0).getRespuesta4());
+        preguntas.setText((posActualPregunta + 1) + "/" + listaPreguntas.size());
+        pregunta.setText(listaPreguntas.get(0).getPregunta());
+        respuesta1.setText(listaPreguntas.get(0).getRespuesta1());
+        respuesta2.setText(listaPreguntas.get(0).getRespuesta2());
+        respuesta3.setText(listaPreguntas.get(0).getRespuesta3());
+        respuesta4.setText(listaPreguntas.get(0).getRespuesta4());
 
 
         respuesta1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (selectedOptionByUser.isEmpty()) {
-                    selectedOptionByUser = respuesta1.getText().toString();
+                if (respuestaUsuario.isEmpty()) {
+                    respuestaUsuario = respuesta1.getText().toString();
 
                     //respuesta1.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
                     respuesta1.setTextColor(Color.WHITE);
 
-                    revealAnswer();
+                    mostrarRespuesta();
 
-                    questionsLists.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
+                    listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
             }
         });
@@ -94,15 +93,15 @@ public class QuizActivity extends AppCompatActivity {
         respuesta2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (selectedOptionByUser.isEmpty()) {
-                    selectedOptionByUser = respuesta2.getText().toString();
+                if (respuestaUsuario.isEmpty()) {
+                    respuestaUsuario = respuesta2.getText().toString();
 
                     //respuesta2.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
                     respuesta2.setTextColor(Color.WHITE);
 
-                    revealAnswer();
+                    mostrarRespuesta();
 
-                    questionsLists.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
+                    listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
             }
         });
@@ -110,15 +109,15 @@ public class QuizActivity extends AppCompatActivity {
         respuesta3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (selectedOptionByUser.isEmpty()) {
-                    selectedOptionByUser = respuesta3.getText().toString();
+                if (respuestaUsuario.isEmpty()) {
+                    respuestaUsuario = respuesta3.getText().toString();
 
                     //respuesta3.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
                     respuesta3.setTextColor(Color.WHITE);
 
-                    revealAnswer();
+                    mostrarRespuesta();
 
-                    questionsLists.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
+                    listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
             }
         });
@@ -126,15 +125,15 @@ public class QuizActivity extends AppCompatActivity {
         respuesta4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (selectedOptionByUser.isEmpty()) {
-                    selectedOptionByUser = respuesta4.getText().toString();
+                if (respuestaUsuario.isEmpty()) {
+                    respuestaUsuario = respuesta4.getText().toString();
 
                     //respuesta4.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
                     respuesta4.setTextColor(Color.WHITE);
 
-                    revealAnswer();
+                    mostrarRespuesta();
 
-                    questionsLists.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
+                    listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
             }
         });
@@ -142,10 +141,10 @@ public class QuizActivity extends AppCompatActivity {
         siguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (selectedOptionByUser.isEmpty()) {
+                if (respuestaUsuario.isEmpty()) {
                     Toast.makeText(QuizActivity.this, "Por favor, elige una respuesta", Toast.LENGTH_SHORT).show();
                 } else {
-                    changeNextQuestion();
+                    mostrarSiguientePregunta();
                 }
             }
         });
@@ -164,17 +163,17 @@ public class QuizActivity extends AppCompatActivity {
          */
     }
 
-    private void changeNextQuestion() {
+    private void mostrarSiguientePregunta() {
 
-        currentQuestionPosition++;
+        posActualPregunta++;
 
-        if ((currentQuestionPosition + 1) == questionsLists.size()) {
+        if ((posActualPregunta + 1) == listaPreguntas.size()) {
             siguiente.setText("Submit Quiz");
         }
 
-        if (currentQuestionPosition < questionsLists.size()) {
+        if (posActualPregunta < listaPreguntas.size()) {
 
-            selectedOptionByUser = "";
+            respuestaUsuario = "";
 
             respuesta1.setBackgroundResource(R.drawable.round_back_white_stroke2);
             respuesta1.setTextColor(Color.parseColor("#1F6BB8"));
@@ -188,17 +187,17 @@ public class QuizActivity extends AppCompatActivity {
             respuesta4.setBackgroundResource(R.drawable.round_back_white_stroke2);
             respuesta4.setTextColor(Color.parseColor("#1F6BB8"));
 
-            preguntas.setText((currentQuestionPosition + 1) + "/" + questionsLists.size());
-            pregunta.setText(questionsLists.get(currentQuestionPosition).getPregunta());
-            respuesta1.setText(questionsLists.get(currentQuestionPosition).getRespuest1());
-            respuesta2.setText(questionsLists.get(currentQuestionPosition).getRespuesta2());
-            respuesta3.setText(questionsLists.get(currentQuestionPosition).getRespuesta3());
-            respuesta4.setText(questionsLists.get(currentQuestionPosition).getRespuesta4());
+            preguntas.setText((posActualPregunta + 1) + "/" + listaPreguntas.size());
+            pregunta.setText(listaPreguntas.get(posActualPregunta).getPregunta());
+            respuesta1.setText(listaPreguntas.get(posActualPregunta).getRespuesta1());
+            respuesta2.setText(listaPreguntas.get(posActualPregunta).getRespuesta2());
+            respuesta3.setText(listaPreguntas.get(posActualPregunta).getRespuesta3());
+            respuesta4.setText(listaPreguntas.get(posActualPregunta).getRespuesta4());
         } else {
 
-            Intent intent = new Intent(QuizActivity.this, QuizResults.class);
-            intent.putExtra("correctas", getCorrectAnswers());
-            intent.putExtra("incorrectas", getIncorrectAnswers());
+            Intent intent = new Intent(QuizActivity.this, ResultadosQuiz.class);
+            intent.putExtra("correctas", getRespuestasCorrectas());
+            intent.putExtra("incorrectas", getRespuestasIncorrectas());
             startActivity(intent);
 
             finish();
@@ -206,101 +205,101 @@ public class QuizActivity extends AppCompatActivity {
 
     }
 
-    private void empezarTimer(TextView tvTiempo) {
+    private void empezarCrono(TextView tvTiempo) {
 
-        quizTimer = new Timer();
+        tiempoPreguntas = new Timer();
 
-        quizTimer.scheduleAtFixedRate(new TimerTask() {
+        tiempoPreguntas.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
 
-                if (seconds == 0) {
-                    totalTimeInMins--;
-                    seconds = 59;
-                } else if (seconds == 0 && totalTimeInMins == 0) {
+                if (segundos == 0) {
+                    tiempoEnMins--;
+                    segundos = 59;
+                } else if (segundos == 0 && tiempoEnMins == 0) {
                     Toast.makeText(QuizActivity.this, "¡Se acabó el tiempo!", Toast.LENGTH_SHORT).show();
 
-                    Intent intent = new Intent(QuizActivity.this, QuizResults.class);
-                    intent.putExtra("correctas", getCorrectAnswers());
-                    intent.putExtra("incorrectas", getIncorrectAnswers());
+                    Intent intent = new Intent(QuizActivity.this, ResultadosQuiz.class);
+                    intent.putExtra("correctas", getRespuestasCorrectas());
+                    intent.putExtra("incorrectas", getRespuestasIncorrectas());
                     startActivity(intent);
 
                     finish();
                 } else {
-                    seconds--;
+                    segundos--;
                 }
 
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
 
-                        String finalMinutes = String.valueOf(totalTimeInMins);
-                        String finalSeconds = String.valueOf(seconds);
+                        String minutosFinales = String.valueOf(tiempoEnMins);
+                        String segundosFinales = String.valueOf(segundos);
 
-                        if (finalMinutes.length() == 1) {
-                            finalMinutes = "0" + finalMinutes;
+                        if (minutosFinales.length() == 1) {
+                            minutosFinales = "0" + minutosFinales;
                         }
 
-                        if (finalSeconds.length() == 1) {
-                            finalSeconds = "0" + finalSeconds;
+                        if (segundosFinales.length() == 1) {
+                            segundosFinales = "0" + segundosFinales;
                         }
 
-                        tvTiempo.setText(finalMinutes + ":" + finalSeconds);
+                        tvTiempo.setText(minutosFinales + ":" + segundosFinales);
                     }
                 });
             }
         }, 1000, 1000);
     }
 
-    private int getCorrectAnswers() {
+    private int getRespuestasCorrectas() {
 
-        int correctAnswers = 0;
+        int respuestasCorrectas = 0;
 
-        for (int i = 0; i < questionsLists.size(); i++) {
+        for (int i = 0; i < listaPreguntas.size(); i++) {
 
-            final String getUserSelectedAnswer = questionsLists.get(i).getUserSelectedAnswer();
-            final String getAnswer = questionsLists.get(i).getRespuesta();
+            final String getRespuestaUsuario = listaPreguntas.get(i).getRespuestaUsuario();
+            final String getRespuesta = listaPreguntas.get(i).getRespuesta();
 
-            if (getUserSelectedAnswer.equals(getAnswer)) {
-                correctAnswers++;
+            if (getRespuestaUsuario.equals(getRespuesta)) {
+                respuestasCorrectas++;
             }
         }
-        return correctAnswers;
+        return respuestasCorrectas;
     }
 
-    private int getIncorrectAnswers() {
+    private int getRespuestasIncorrectas() {
 
-        int incorrectAnswers = 0;
+        int respuestasIncorrectas = 0;
 
-        for (int i = 0; i < questionsLists.size(); i++) {
+        for (int i = 0; i < listaPreguntas.size(); i++) {
 
-            final String getUserSelectedAnswer = questionsLists.get(i).getUserSelectedAnswer();
-            final String getAnswer = questionsLists.get(i).getRespuesta();
+            final String getRespuestaUsuario = listaPreguntas.get(i).getRespuestaUsuario();
+            final String getRespuesta = listaPreguntas.get(i).getRespuesta();
 
-            if (!getUserSelectedAnswer.equals(getAnswer)) {
-                incorrectAnswers++;
+            if (!getRespuestaUsuario.equals(getRespuesta)) {
+                respuestasIncorrectas++;
             }
 
 
         }
-        return incorrectAnswers;
+        return respuestasIncorrectas;
     }
 
 
-    private void revealAnswer() {
+    private void mostrarRespuesta() {
 
-        final String getAnswer = questionsLists.get(currentQuestionPosition).getRespuesta();
+        final String getRespuesta = listaPreguntas.get(posActualPregunta).getRespuesta();
 
-        if (respuesta1.getText().toString().equals(getAnswer)) {
+        if (respuesta1.getText().toString().equals(getRespuesta)) {
             //respuesta1.setBackgroundDrawable(R.drawable.respuestacorrecta);
             respuesta1.setTextColor(Color.WHITE);
-        } else if (respuesta2.getText().toString().equals(getAnswer)) {
+        } else if (respuesta2.getText().toString().equals(getRespuesta)) {
             //respuesta2.setBackgroundDrawable(R.drawable.respuestacorrecta);
             respuesta2.setTextColor(Color.WHITE);
-        } else if (respuesta3.getText().toString().equals(getAnswer)) {
+        } else if (respuesta3.getText().toString().equals(getRespuesta)) {
             //respuesta3.setBackgroundDrawable(R.drawable.respuestacorrecta);
             respuesta3.setTextColor(Color.WHITE);
-        } else if (respuesta4.getText().toString().equals(getAnswer)) {
+        } else if (respuesta4.getText().toString().equals(getRespuesta)) {
             //respuesta4.setBackgroundDrawable(R.drawable.respuestacorrecta);
             respuesta4.setTextColor(Color.WHITE);
         }

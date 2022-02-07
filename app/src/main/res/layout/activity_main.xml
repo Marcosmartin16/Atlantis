@@ -23,7 +23,7 @@
                    android:layout_height="wrap_content"
                    android:layout_centerVertical="true"
                    android:padding="15dp"
-                   android:src="@drawable/back_btn" />
+                   android:src="@drawable/btn_volver" />
 
                <ImageView
                    android:layout_width="wrap_content"

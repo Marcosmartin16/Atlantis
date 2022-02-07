@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginTop="15dp"
-            android:src="@drawable/back_btn" />
+            android:src="@drawable/btn_volver" />
 
         <TextView
             android:id="@+id/tvTitulo"
@@ -42,7 +42,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginStart="15dp"
-                android:src="@drawable/timer_btn" />
+                android:src="@drawable/btn_crono" />
 
             <TextView
                 android:id="@+id/tvTiempo"
@@ -55,11 +55,9 @@
         </LinearLayout>
 
 
-
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/tvPreguntas"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_gravity="center"
@@ -68,9 +66,7 @@
         android:elevation="1dp"
         android:gravity="center"
         android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:text="1/10"
-        android:textColor="#1F6BB8"></TextView>
+        android:paddingEnd="15dp"></TextView>
 
     <TextView
         android:id="@+id/pregunta"

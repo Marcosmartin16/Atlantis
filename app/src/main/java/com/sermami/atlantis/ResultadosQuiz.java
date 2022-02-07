@@ -4,12 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class QuizResults extends AppCompatActivity {
+public class ResultadosQuiz extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_results);
+        setContentView(R.layout.activity_quiz_resultados);
 
         /*final TextView correctAnswer = findViewById(R.id.correctAnswers);
         final TextView incorrectAnswer = findViewById(R.id.incorrectAnswers);
