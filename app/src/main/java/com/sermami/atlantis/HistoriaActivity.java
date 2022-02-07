@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class HistoriaActivity extends AppCompatActivity {
 
-    private String selectedTopicName= " ";
+    private String selectedTopicName= "";
     Button btn_juego;
 
     @Override

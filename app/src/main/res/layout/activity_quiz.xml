@@ -53,7 +53,7 @@
                 android:textColor="@color/black"></TextView>
 
         </LinearLayout>
-        "
+
 
 
     </RelativeLayout>
