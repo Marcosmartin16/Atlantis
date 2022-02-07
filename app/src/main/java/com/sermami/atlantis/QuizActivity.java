@@ -28,6 +28,8 @@ public class QuizActivity extends AppCompatActivity {
 
     private Timer quizTimer;
 
+    final TextView selectedTopicName = findViewById(R.id.tvTitulo);
+
     private int totalTimeInMins=1;
     private int seconds=0;
 
@@ -44,6 +46,7 @@ public class QuizActivity extends AppCompatActivity {
 
         final String getSelectedTopicName = getIntent().getStringExtra("selectedTopic");
 
+        selectedTopicName.setText(getSelectedTopicName);
         final TextView reloj = findViewById(R.id.tvTiempo);
 
 
@@ -192,8 +195,8 @@ public class QuizActivity extends AppCompatActivity {
         else{
 
             Intent intent = new Intent(QuizActivity.this, QuizResults.class);
-            intent.putExtra("correct",getCorrectAnswers());
-            intent.putExtra("incorrect",getIncorrectAnswers());
+            intent.putExtra("correctas",getCorrectAnswers());
+            intent.putExtra("incorrectas",getIncorrectAnswers());
             startActivity(intent);
 
             finish();

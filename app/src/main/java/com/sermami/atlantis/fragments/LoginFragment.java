@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.sermami.atlantis.MainActivity;
 import com.sermami.atlantis.QuizActivity;
 import com.sermami.atlantis.QuizResults;
 import com.sermami.atlantis.R;
@@ -69,7 +70,7 @@ public class LoginFragment extends Fragment {
         entrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), QuizActivity.class);
+                Intent intent = new Intent(v.getContext(), MainActivity.class);
                 startActivity(intent);
             }
         });

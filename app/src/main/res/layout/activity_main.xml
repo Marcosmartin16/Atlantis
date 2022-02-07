@@ -49,6 +49,7 @@
                android:layout_height="190dp">
 
                <RelativeLayout
+                   android:id="@+id/rlAjolote"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:layout_marginStart="20dp"
@@ -88,6 +89,7 @@
                android:elevation="8dp">
 
                <RelativeLayout
+                   android:id="@+id/rlCaballito"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:background="@drawable/round_back_white_main">
@@ -118,6 +120,7 @@
                android:layout_height="190dp">
 
                <RelativeLayout
+                   android:id="@+id/rlTortuga"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:layout_marginStart="20dp"
@@ -157,6 +160,7 @@
                android:elevation="8dp">
 
                <RelativeLayout
+                   android:id="@+id/rlBallena"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:background="@drawable/round_back_white_main">
@@ -187,6 +191,7 @@
                android:layout_height="190dp">
 
                <RelativeLayout
+                   android:id="@+id/rlCoral"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:layout_marginStart="20dp"
@@ -224,6 +229,7 @@
                android:elevation="8dp">
 
                <RelativeLayout
+                   android:id="@+id/rlLangosta"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:background="@drawable/round_back_white_main">
@@ -254,10 +260,14 @@
                android:layout_height="190dp">
 
                <RelativeLayout
+                   android:id="@+id/rlLoboMarino"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@drawable/round_back_white_main"
-                   android:layout_margin="20dp">
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
                        android:id="@+id/imgLoboMarino"
@@ -290,6 +300,7 @@
                android:elevation="8dp">
 
                <RelativeLayout
+                   android:id="@+id/rlPezGlobo"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:background="@drawable/round_back_white_main">
@@ -319,10 +330,14 @@
                android:layout_height="190dp">
 
                <RelativeLayout
+                   android:id="@+id/rlNarval"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@drawable/round_back_white_main"
-                   android:layout_margin="20dp">
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
                        android:id="@+id/imgNarval"
@@ -354,6 +369,7 @@
                android:elevation="8dp">
 
                <RelativeLayout
+                   android:id="@+id/rlAnemona"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:background="@drawable/round_back_white_main">
@@ -383,10 +399,14 @@
                android:layout_height="190dp">
 
                <RelativeLayout
+                   android:id="@+id/rlTiburon"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
-                   android:background="@drawable/round_back_white_main"
-                   android:layout_margin="20dp">
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:background="@drawable/round_back_white_main">
 
                    <ImageView
                        android:id="@+id/imgTiburon"
@@ -417,6 +437,7 @@
                android:elevation="8dp">
 
                <RelativeLayout
+                   android:id="@+id/rlFoca"
                    android:layout_width="match_parent"
                    android:layout_height="150dp"
                    android:background="@drawable/round_back_white_main">

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class QuestionsBank {
 
-    private static List<QuestionsList> animal1Questions() {
+    private static List<QuestionsList> ajoloteQuestions() {
 
         final List<QuestionsList> questionsLists = new ArrayList<>();
 
@@ -74,10 +74,10 @@ public class QuestionsBank {
 
     }
 
-   public static List<QuestionsList> getQuestions(String selectedAnimal){
-        switch (selectedAnimal){
+   public static List<QuestionsList> getQuestions(String selectedTopicName){
+        switch (selectedTopicName){
             case "ajolote":
-                return animal1Questions();
+                return ajoloteQuestions();
             case "medusa":
                 return animal2Questions();
             default:
