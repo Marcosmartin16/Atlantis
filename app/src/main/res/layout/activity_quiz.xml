@@ -140,7 +140,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/round_back_green_stroke2"
+        android:background="@drawable/round_back_yellow_stroke2"
         android:text="Siguiente"
 
         android:textAllCaps="false"
