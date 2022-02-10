@@ -80,7 +80,7 @@ public class QuizActivity extends AppCompatActivity {
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta1.getText().toString();
 
-                    //respuesta1.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
+                    respuesta1.setBackgroundResource(R.drawable.round_back_red_stroke);
                     respuesta1.setTextColor(Color.WHITE);
 
                     mostrarRespuesta();
@@ -96,7 +96,7 @@ public class QuizActivity extends AppCompatActivity {
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta2.getText().toString();
 
-                    //respuesta2.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
+                    respuesta2.setBackgroundResource(R.drawable.round_back_red_stroke);
                     respuesta2.setTextColor(Color.WHITE);
 
                     mostrarRespuesta();
@@ -112,7 +112,7 @@ public class QuizActivity extends AppCompatActivity {
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta3.getText().toString();
 
-                    //respuesta3.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
+                    respuesta3.setBackgroundResource(R.drawable.round_back_red_stroke);
                     respuesta3.setTextColor(Color.WHITE);
 
                     mostrarRespuesta();
@@ -128,7 +128,7 @@ public class QuizActivity extends AppCompatActivity {
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta4.getText().toString();
 
-                    //respuesta4.setBackgroundResource(Llamamos al layout que indica que la respuesta es incorrecta);
+                    respuesta4.setBackgroundResource(R.drawable.round_back_red_stroke);
                     respuesta4.setTextColor(Color.WHITE);
 
                     mostrarRespuesta();
@@ -169,6 +169,8 @@ public class QuizActivity extends AppCompatActivity {
 
         if ((posActualPregunta + 1) == listaPreguntas.size()) {
             siguiente.setText("Submit Quiz");
+            Intent intent = new Intent(QuizActivity.this, ResultadosQuiz.class);
+            startActivity(intent);
         }
 
         if (posActualPregunta < listaPreguntas.size()) {
@@ -217,6 +219,10 @@ public class QuizActivity extends AppCompatActivity {
                     tiempoEnMins--;
                     segundos = 59;
                 } else if (segundos == 0 && tiempoEnMins == 0) {
+
+                    tiempoPreguntas.purge();
+                    tiempoPreguntas.cancel();
+
                     Toast.makeText(QuizActivity.this, "¡Se acabó el tiempo!", Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(QuizActivity.this, ResultadosQuiz.class);
@@ -291,16 +297,16 @@ public class QuizActivity extends AppCompatActivity {
         final String getRespuesta = listaPreguntas.get(posActualPregunta).getRespuesta();
 
         if (respuesta1.getText().toString().equals(getRespuesta)) {
-            //respuesta1.setBackgroundDrawable(R.drawable.respuestacorrecta);
+            respuesta1.setBackgroundResource(R.drawable.round_back_green_stroke2);
             respuesta1.setTextColor(Color.WHITE);
         } else if (respuesta2.getText().toString().equals(getRespuesta)) {
-            //respuesta2.setBackgroundDrawable(R.drawable.respuestacorrecta);
+            respuesta2.setBackgroundResource(R.drawable.round_back_green_stroke2);
             respuesta2.setTextColor(Color.WHITE);
         } else if (respuesta3.getText().toString().equals(getRespuesta)) {
-            //respuesta3.setBackgroundDrawable(R.drawable.respuestacorrecta);
+            respuesta3.setBackgroundResource(R.drawable.round_back_green_stroke2);
             respuesta3.setTextColor(Color.WHITE);
         } else if (respuesta4.getText().toString().equals(getRespuesta)) {
-            //respuesta4.setBackgroundDrawable(R.drawable.respuestacorrecta);
+            respuesta4.setBackgroundResource(R.drawable.round_back_green_stroke2);
             respuesta4.setTextColor(Color.WHITE);
         }
 

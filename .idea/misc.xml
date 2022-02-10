@@ -13,6 +13,7 @@
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/ic_burger_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_gradient.xml" value="0.18" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_light_yellow.xml" value="0.1" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_red_stroke.xml" value="0.2115" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_white_stroke2.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/round_back_yellow_stroke2.xml" value="0.2115" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/drawable/timer_btn.xml" value="0.2169230769230769" />
@@ -20,6 +21,7 @@
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_historia.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_quiz.xml" value="0.33" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_quiz_resultados.xml" value="0.22" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_quiz_results.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_second.xml" value="0.1" />
         <entry key="..\:/Users/sergi/AndroidStudioProjects/Atlantis/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.1" />
