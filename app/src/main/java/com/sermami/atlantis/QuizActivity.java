@@ -16,7 +16,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class QuizActivity extends AppCompatActivity {
-
+//Comentario
     private TextView preguntas;
     private TextView pregunta;
 
