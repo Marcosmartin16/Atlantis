@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210227720665",
+    "project_id": "atlantis-812a3",
+    "storage_bucket": "atlantis-812a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210227720665:android:127833f583f68cc833e9c8",
+        "android_client_info": {
+          "package_name": "com.sermami.atlantis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210227720665-spe5o4gts2dgm6s9rfdtotl6c85o832l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkMfCKHiLN8syFhchurT3vnTlobh23rFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210227720665-spe5o4gts2dgm6s9rfdtotl6c85o832l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
