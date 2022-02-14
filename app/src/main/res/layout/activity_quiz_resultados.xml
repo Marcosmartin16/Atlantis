@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/gradient"
     android:orientation="vertical"
     tools:context=".ResultadosQuiz">
 
@@ -12,12 +12,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/ubuntu_bold"
         android:gravity="center"
-        android:text="Has completado el test"
+        android:text="¡Has completado el test!"
+        android:textColor="@color/white"
         android:textSize="50dp"></TextView>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"></LinearLayout>
-</LinearLayout>
+        android:layout_below="@id/tvTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/respuestasCorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="Respuestas correctas : 0"
+            android:textColor="@color/verde_titulo"
+            android:textSize="25dp"></TextView>
+
+        <TextView
+            android:id="@+id/respuestasIncorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="Respuestas incorrectas : 0"
+            android:textColor="@color/rojo_titulo"
+            android:textSize="25dp"></TextView>
+    </LinearLayout>
+</RelativeLayout>

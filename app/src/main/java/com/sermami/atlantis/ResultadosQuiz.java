@@ -3,6 +3,7 @@ package com.sermami.atlantis;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class ResultadosQuiz extends AppCompatActivity {
 
@@ -11,14 +12,14 @@ public class ResultadosQuiz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_resultados);
 
-        /*final TextView correctAnswer = findViewById(R.id.correctAnswers);
-        final TextView incorrectAnswer = findViewById(R.id.incorrectAnswers);
+        TextView respuestasCorrectas = findViewById(R.id.respuestasCorrectas);
+        TextView respuestasIncorrectas = findViewById(R.id.respuestasIncorrectas);
 
-        final int getCorrectAnswers = getIntent().getIntExtra("correct",0);
-        final int getIncorrectAnswers = getIntent().getIntExtra("correct",0);
+        int getRespuestasCorrectas = getIntent().getIntExtra("correctas",0);
+        int getRespuestasIncorrectas = getIntent().getIntExtra("incorrectas",0);
 
-        correctAnswer.setText(String.valueOf(getCorrectAnswers));
-        incorrectAnswer.setText(String.valueOf(getIncorrectAnswers));*/
+        respuestasCorrectas.setText(String.valueOf(getRespuestasCorrectas));
+        respuestasIncorrectas.setText(String.valueOf(getRespuestasIncorrectas));
 
     }
 }

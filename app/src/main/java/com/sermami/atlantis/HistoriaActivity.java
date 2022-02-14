@@ -16,27 +16,31 @@ import com.sermami.atlantis.databinding.ActivityScrollingBinding;
 public class HistoriaActivity extends AppCompatActivity {
 
     private ActivityScrollingBinding binding;
-    private String temaElegido = "";
+    String temaElegido;
+    MainActivity ma;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        ma = new MainActivity();
 
         binding = ActivityScrollingBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         Toolbar toolbar = binding.toolbar;
         setSupportActionBar(toolbar);
-        CollapsingToolbarLayout toolBarLayout = binding.toolbarLayout;
+        CollapsingToolbarLayout toolBarLayout = binding.collapsingToolbar;
         toolBarLayout.setTitle(getTitle());
 
         FloatingActionButton fab = binding.fab;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                temaElegido = "ajolote";
+                temaElegido = ma.getTemaElegido();
+                temaElegido = getIntent().getStringExtra("temaElegido");
                 Intent intent = new Intent(HistoriaActivity.this, QuizActivity.class);
-                intent.putExtra("selectedTopic", temaElegido);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });

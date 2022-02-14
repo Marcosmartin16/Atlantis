@@ -3,7 +3,10 @@ package com.sermami.atlantis;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,11 +19,13 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class QuizActivity extends AppCompatActivity {
-//Comentario
+    //Comentario
     private TextView preguntas;
     private TextView pregunta;
 
     private AppCompatButton respuesta1, respuesta2, respuesta3, respuesta4;
+
+    Animation boton_up, boton_down;
 
     private AppCompatButton siguiente;
 
@@ -55,10 +60,13 @@ public class QuizActivity extends AppCompatActivity {
         respuesta3 = findViewById(R.id.respuesta3);
         respuesta4 = findViewById(R.id.respuesta4);
 
+        boton_up = AnimationUtils.loadAnimation(this, R.anim.boton_up);
+        boton_down = AnimationUtils.loadAnimation(this, R.anim.boton_down);
+
         siguiente = findViewById(R.id.siguiente);
 
 
-        final String getTemaElegido = getIntent().getStringExtra("selectedTopic");
+        final String getTemaElegido = getIntent().getStringExtra("temaElegido");
 
         temaElegido.setText(getTemaElegido);
 
@@ -74,9 +82,14 @@ public class QuizActivity extends AppCompatActivity {
         respuesta4.setText(listaPreguntas.get(0).getRespuesta4());
 
 
-        respuesta1.setOnClickListener(new View.OnClickListener() {
+        respuesta1.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onTouch(View v, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    respuesta1.startAnimation(boton_up);
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    respuesta1.startAnimation(boton_down);
+                }
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta1.getText().toString();
 
@@ -87,12 +100,18 @@ public class QuizActivity extends AppCompatActivity {
 
                     listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
+                return true;
             }
         });
 
-        respuesta2.setOnClickListener(new View.OnClickListener() {
+        respuesta2.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onTouch(View v, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    respuesta2.startAnimation(boton_up);
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    respuesta2.startAnimation(boton_down);
+                }
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta2.getText().toString();
 
@@ -103,12 +122,18 @@ public class QuizActivity extends AppCompatActivity {
 
                     listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
+                return true;
             }
         });
 
-        respuesta3.setOnClickListener(new View.OnClickListener() {
+        respuesta3.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onTouch(View v, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    respuesta3.startAnimation(boton_up);
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    respuesta3.startAnimation(boton_down);
+                }
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta3.getText().toString();
 
@@ -119,12 +144,18 @@ public class QuizActivity extends AppCompatActivity {
 
                     listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
+                return true;
             }
         });
 
-        respuesta4.setOnClickListener(new View.OnClickListener() {
+        respuesta4.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onTouch(View v, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    respuesta4.startAnimation(boton_up);
+                } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    respuesta4.startAnimation(boton_down);
+                }
                 if (respuestaUsuario.isEmpty()) {
                     respuestaUsuario = respuesta4.getText().toString();
 
@@ -135,6 +166,7 @@ public class QuizActivity extends AppCompatActivity {
 
                     listaPreguntas.get(posActualPregunta).setRespuestaUsuario(respuestaUsuario);
                 }
+                return true;
             }
         });
 
@@ -152,8 +184,8 @@ public class QuizActivity extends AppCompatActivity {
         /*volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                quizTimer.purge();
-                quizTimer.cancel();
+                tiempoPreguntas.purge();
+                tiempoPreguntas.cancel();
 
                 startActivity(new Intent(QuizActivity.this, MainActivity.class));
                 finish();
@@ -161,6 +193,8 @@ public class QuizActivity extends AppCompatActivity {
         });
 
          */
+
+
     }
 
     private void mostrarSiguientePregunta() {
@@ -168,9 +202,7 @@ public class QuizActivity extends AppCompatActivity {
         posActualPregunta++;
 
         if ((posActualPregunta + 1) == listaPreguntas.size()) {
-            siguiente.setText("Submit Quiz");
-            Intent intent = new Intent(QuizActivity.this, ResultadosQuiz.class);
-            startActivity(intent);
+            siguiente.setText("¡Quiz terminado!");
         }
 
         if (posActualPregunta < listaPreguntas.size()) {
