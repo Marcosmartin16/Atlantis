@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/gradient"
     android:orientation="vertical"
     tools:context=".ResultadosQuiz">
+
+
 
     <TextView
         android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/ubuntu_bold"
         android:gravity="center"
-        android:text="Has completado el test"
-        android:textSize="50dp"></TextView>
+        android:text="@string/test_completado"
+        android:textColor="@color/white"
+        android:textSize="50sp"></TextView>
 
     <LinearLayout
+        android:id="@+id/ll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"></LinearLayout>
-</LinearLayout>
+        android:layout_below="@id/tvTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/respuestasCorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/respuestas_correctas"
+            android:textColor="@color/verde_titulo"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/respuestasIncorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/respuestas_incorrectas"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25sp"></TextView>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ll"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_yellow_stroke2"
+        android:text="@string/volver_a_historia"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
+</RelativeLayout>

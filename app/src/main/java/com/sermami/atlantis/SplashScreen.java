@@ -19,7 +19,6 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-        getSupportActionBar().hide();
 
         openApp(true);
 
@@ -35,7 +34,7 @@ public class SplashScreen extends AppCompatActivity {
         ImageView pompa8 = findViewById(R.id.pompa8);
 
 
-        Animation scale = AnimationUtils.loadAnimation(this,R.anim.scale);
+        Animation scale = AnimationUtils.loadAnimation(this, R.anim.scale);
         pompa1.startAnimation(scale);
         pompa2.startAnimation(scale);
         pompa3.startAnimation(scale);
@@ -45,17 +44,17 @@ public class SplashScreen extends AppCompatActivity {
         pompa7.startAnimation(scale);
         pompa8.startAnimation(scale);
 
-        Animation transition = AnimationUtils.loadAnimation(this,R.anim.transition);
+        Animation transition = AnimationUtils.loadAnimation(this, R.anim.transition);
         ajolote.startAnimation(transition);
 
     }
 
-    public void openApp(boolean locationPermission){
+    public void openApp(boolean locationPermission) {
 
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashScreen.this,SecondActivity.class);
+                Intent intent = new Intent(SplashScreen.this, SecondActivity.class);
 
                /* intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);*/

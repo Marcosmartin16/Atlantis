@@ -1,12 +1,10 @@
 package com.sermami.atlantis;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,12 +21,18 @@ public class MainActivity extends AppCompatActivity {
     RelativeLayout rlTiburon;
     RelativeLayout rlTortuga;
     RelativeLayout rlBallena;
+
+    private String temaElegido = "";
+
+    public MainActivity(){
+        this.temaElegido = temaElegido;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().hide();
 
         rlAjolote = (RelativeLayout) findViewById(R.id.rlAjolote);
         rlLangosta = (RelativeLayout) findViewById(R.id.rlLangosta);
@@ -46,7 +50,10 @@ public class MainActivity extends AppCompatActivity {
         rlAjolote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "ajolote";
+                setTemaElegido("ajolote");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -54,7 +61,10 @@ public class MainActivity extends AppCompatActivity {
         rlLangosta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "langosta";
+                setTemaElegido("langosta");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -62,7 +72,10 @@ public class MainActivity extends AppCompatActivity {
         rlLoboMarino.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                setTemaElegido("lobo");
+                temaElegido = "lobo";
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -70,7 +83,10 @@ public class MainActivity extends AppCompatActivity {
         rlCoral.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "coral";
+                setTemaElegido("coral");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -78,7 +94,10 @@ public class MainActivity extends AppCompatActivity {
         rlAnemona.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "anemona";
+                setTemaElegido("anemona");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -86,7 +105,10 @@ public class MainActivity extends AppCompatActivity {
         rlCaballito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                setTemaElegido("caballito");
+                temaElegido = "caballito";
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -94,7 +116,10 @@ public class MainActivity extends AppCompatActivity {
         rlPezGlobo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "pez";
+                setTemaElegido("pez");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -102,7 +127,10 @@ public class MainActivity extends AppCompatActivity {
         rlFoca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "foca";
+                setTemaElegido("foca");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -110,7 +138,10 @@ public class MainActivity extends AppCompatActivity {
         rlTiburon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "tiburon";
+                setTemaElegido("tiburon");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -118,7 +149,10 @@ public class MainActivity extends AppCompatActivity {
         rlTortuga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "tortuga";
+                setTemaElegido("tortuga");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -126,7 +160,10 @@ public class MainActivity extends AppCompatActivity {
         rlBallena.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "ballena";
+                setTemaElegido("ballena");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
@@ -134,10 +171,21 @@ public class MainActivity extends AppCompatActivity {
         rlNarval.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                temaElegido = "narval";
+                setTemaElegido("narval");
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
+                intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
             }
         });
+    }
+
+    public String getTemaElegido() {
+        return temaElegido;
+    }
+
+    public void setTemaElegido(String temaElegido) {
+        this.temaElegido = temaElegido;
     }
 
 }

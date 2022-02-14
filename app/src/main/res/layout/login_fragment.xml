@@ -6,7 +6,8 @@
     tools:context=".fragments.LoginFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cl1"
