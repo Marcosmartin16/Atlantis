@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().hide();
 
         rlAjolote = (RelativeLayout) findViewById(R.id.rlAjolote);
         rlLangosta = (RelativeLayout) findViewById(R.id.rlLangosta);

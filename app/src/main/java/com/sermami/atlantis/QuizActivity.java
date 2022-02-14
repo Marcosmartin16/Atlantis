@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,7 +20,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class QuizActivity extends AppCompatActivity {
-    //Comentario
+
     private TextView preguntas;
     private TextView pregunta;
 
@@ -29,10 +30,9 @@ public class QuizActivity extends AppCompatActivity {
 
     private AppCompatButton siguiente;
 
-    private Button volver;
-
     private Timer tiempoPreguntas;
 
+    private ImageView volver;
 
     private int tiempoEnMins = 1;
     private int segundos = 0;
@@ -51,6 +51,7 @@ public class QuizActivity extends AppCompatActivity {
         final TextView reloj = findViewById(R.id.tvTiempo);
         final TextView temaElegido = findViewById(R.id.tvTitulo);
 
+        volver = findViewById(R.id.back_btn);
 
         preguntas = findViewById(R.id.tvTitulo);
         pregunta = findViewById(R.id.pregunta);
@@ -181,7 +182,7 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
 
-        /*volver.setOnClickListener(new View.OnClickListener() {
+        volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tiempoPreguntas.purge();
@@ -191,8 +192,6 @@ public class QuizActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-         */
 
 
     }

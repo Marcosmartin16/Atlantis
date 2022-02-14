@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Selecciona la respuesta correcta"
+            android:text="@string/selecciona_la_respuesta_correcta"
             android:textSize="18sp"
             android:textStyle="bold"></TextView>
 
@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="00:59"
+                android:text="@string/_00_59"
                 android:textColor="@color/black"></TextView>
 
         </LinearLayout>
@@ -57,29 +57,19 @@
 
     </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="@color/white"
-        android:elevation="1dp"
-        android:gravity="center"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"></TextView>
 
     <TextView
         android:id="@+id/pregunta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="-20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:background="@color/white"
         android:gravity="center"
         android:minHeight="100dp"
         android:padding="20dp"
-        android:text="Aquí irá la pregunta..."
+        android:text="@string/aqui_ira_la_pregunta"
         android:textColor="@color/black"
         android:textSize="16sp"></TextView>
 
@@ -91,7 +81,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/round_back_white_stroke2"
-        android:text="Primera opción"
+        android:text="@string/primera_opcion"
         android:textAllCaps="false"
         android:textColor="#1F6BB8">
 
@@ -105,7 +95,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/round_back_white_stroke2"
-        android:text="Segunda opción"
+        android:text="@string/segunda_opcion"
         android:textAllCaps="false"
         android:textColor="#1F6BB8" />
 
@@ -117,7 +107,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/round_back_white_stroke2"
-        android:text="Tercera opción"
+        android:text="@string/tercera_opcion"
         android:textAllCaps="false"
         android:textColor="#1F6BB8" />
 
@@ -129,7 +119,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/round_back_white_stroke2"
-        android:text="Cuarta opción"
+        android:text="@string/cuarta_opcion"
         android:textAllCaps="false"
         android:textColor="#1F6BB8" />
 
@@ -141,8 +131,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/round_back_yellow_stroke2"
-        android:text="Siguiente"
-
+        android:text="@string/siguiente"
         android:textAllCaps="false"
         android:textColor="#1F6BB8" />
 

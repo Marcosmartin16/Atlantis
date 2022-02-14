@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context=".ResultadosQuiz">
 
+
+
     <TextView
         android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
@@ -14,11 +16,12 @@
         android:layout_centerInParent="true"
         android:fontFamily="@font/ubuntu_bold"
         android:gravity="center"
-        android:text="¡Has completado el test!"
+        android:text="@string/test_completado"
         android:textColor="@color/white"
-        android:textSize="50dp"></TextView>
+        android:textSize="50sp"></TextView>
 
     <LinearLayout
+        android:id="@+id/ll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvTitulo"
@@ -31,9 +34,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/ubuntu_bold"
-            android:text="Respuestas correctas : 0"
+            android:text="@string/respuestas_correctas"
             android:textColor="@color/verde_titulo"
-            android:textSize="25dp"></TextView>
+            android:textSize="25sp"></TextView>
 
         <TextView
             android:id="@+id/respuestasIncorrectas"
@@ -41,8 +44,22 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/ubuntu_bold"
-            android:text="Respuestas incorrectas : 0"
-            android:textColor="@color/rojo_titulo"
-            android:textSize="25dp"></TextView>
+            android:text="@string/respuestas_incorrectas"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25sp"></TextView>
+
     </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ll"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_yellow_stroke2"
+        android:text="@string/volver_a_historia"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
 </RelativeLayout>
