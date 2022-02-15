@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/CLP"
-    tools:context=".fragments.SignUpFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient"
+    tools:context=".fragments.SignUpFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cl1"
@@ -26,6 +26,7 @@
             android:layout_height="560dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="-57dp"
+            android:contentDescription="@string/descripcion_alga_roja"
             android:src="@drawable/algaroja"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +42,7 @@
             android:layout_height="560dp"
             android:layout_marginStart="-150dp"
             android:layout_marginEnd="70dp"
+            android:contentDescription="@string/descripcion_alga_verde2"
             android:src="@drawable/alga2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/LogincardView"
@@ -56,6 +58,7 @@
             android:layout_height="560dp"
             android:layout_marginStart="-120dp"
             android:layout_marginTop="-180dp"
+            android:contentDescription="@string/descripcion_alga_verde1"
             android:src="@drawable/alga1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -91,8 +94,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
-                    android:drawableLeft="@drawable/ic_email"
-                    android:hint="Email"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/ic_email"
+                    android:hint="@string/email"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:padding="8dp"
@@ -101,11 +105,12 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/etUsername"
+                    android:id="@+id/etUser"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
-                    android:drawableLeft="@drawable/ic_user"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/ic_user"
                     android:hint="@string/usuario"
                     android:inputType="text"
                     android:maxLines="1"
@@ -119,6 +124,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
+                    android:autofillHints=""
                     android:drawableStart="@drawable/ic_password"
                     android:hint="@string/contrasenia"
                     android:inputType="textPassword"
@@ -142,7 +148,7 @@
 
 
                 <Button
-                    android:id="@+id/btn_entrar"
+                    android:id="@+id/btn_crear"
                     style="@style/btn_entrar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -150,7 +156,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="8dp"
                     android:minHeight="48dp"
-                    android:text="@string/entrar" />
+                    android:text="@string/crear" />
 
 
             </LinearLayout>
@@ -207,7 +213,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="A"
+        android:text="@string/i"
         android:textColor="@color/amarillo"
         android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
@@ -235,7 +241,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="T"
+        android:text="@string/t"
         android:textColor="@color/amarillo"
         android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"

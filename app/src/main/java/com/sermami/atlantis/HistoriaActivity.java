@@ -28,6 +28,8 @@ public class HistoriaActivity extends AppCompatActivity {
         binding = ActivityScrollingBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
+
         Toolbar toolbar = binding.toolbar;
         setSupportActionBar(toolbar);
         CollapsingToolbarLayout toolBarLayout = binding.collapsingToolbar;

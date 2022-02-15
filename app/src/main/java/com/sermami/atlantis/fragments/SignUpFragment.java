@@ -19,7 +19,7 @@ import com.sermami.atlantis.R;
 public class SignUpFragment extends Fragment {
 
     CheckBox terminos;
-
+    Button crear;
 
     public SignUpFragment() {
     }
@@ -31,7 +31,7 @@ public class SignUpFragment extends Fragment {
         View myView = inflater.inflate(R.layout.signup_fragment, container, false);
 
         terminos = (CheckBox) myView.findViewById(R.id.checkBox);
-
+        crear = (Button) myView.findViewById(R.id.btn_crear);
 
 
         terminos.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +39,13 @@ public class SignUpFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), CondicionesActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        crear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
             }
         });
 

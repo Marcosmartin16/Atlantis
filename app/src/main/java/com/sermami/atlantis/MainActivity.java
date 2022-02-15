@@ -1,30 +1,36 @@
 package com.sermami.atlantis;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
 
-    RelativeLayout rlAjolote;
-    RelativeLayout rlLangosta;
-    RelativeLayout rlLoboMarino;
-    RelativeLayout rlNarval;
-    RelativeLayout rlCoral;
-    RelativeLayout rlAnemona;
-    RelativeLayout rlCaballito;
-    RelativeLayout rlPezGlobo;
-    RelativeLayout rlFoca;
-    RelativeLayout rlTiburon;
-    RelativeLayout rlTortuga;
-    RelativeLayout rlBallena;
+    CardView rlAjolote;
+    CardView rlLangosta;
+    CardView rlLoboMarino;
+    CardView rlNarval;
+    CardView rlCoral;
+    CardView rlAnemona;
+    CardView rlCaballito;
+    CardView rlPezGlobo;
+    CardView rlFoca;
+    CardView rlTiburon;
+    CardView rlTortuga;
+    CardView rlBallena;
 
     private String temaElegido = "";
 
-    public MainActivity(){
+    Switch cambiarTema;
+
+    public MainActivity() {
         this.temaElegido = temaElegido;
     }
 
@@ -33,19 +39,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
 
-        rlAjolote = (RelativeLayout) findViewById(R.id.rlAjolote);
-        rlLangosta = (RelativeLayout) findViewById(R.id.rlLangosta);
-        rlLoboMarino = (RelativeLayout) findViewById(R.id.rlLoboMarino);
-        rlNarval = (RelativeLayout) findViewById(R.id.rlNarval);
-        rlCoral = (RelativeLayout) findViewById(R.id.rlCoral);
-        rlAnemona = (RelativeLayout) findViewById(R.id.rlAnemona);
-        rlCaballito = (RelativeLayout) findViewById(R.id.rlCaballito);
-        rlPezGlobo = (RelativeLayout) findViewById(R.id.rlPezGlobo);
-        rlFoca = (RelativeLayout) findViewById(R.id.rlFoca);
-        rlTiburon = (RelativeLayout) findViewById(R.id.rlTiburon);
-        rlTortuga = (RelativeLayout) findViewById(R.id.rlTortuga);
-        rlBallena = (RelativeLayout) findViewById(R.id.rlBallena);
+        rlAjolote = (CardView) findViewById(R.id.cvAjolote);
+        rlLangosta = (CardView) findViewById(R.id.cvLangosta);
+        rlLoboMarino = (CardView) findViewById(R.id.cvLoboMarino);
+        rlNarval = (CardView) findViewById(R.id.cvNarval);
+        rlCoral = (CardView) findViewById(R.id.cvCoral);
+        rlAnemona = (CardView) findViewById(R.id.cvAnemona);
+        rlCaballito = (CardView) findViewById(R.id.cvCaballito);
+        rlPezGlobo = (CardView) findViewById(R.id.cvPezGlobo);
+        rlFoca = (CardView) findViewById(R.id.cvFoca);
+        rlTiburon = (CardView) findViewById(R.id.cvTiburon);
+        rlTortuga = (CardView) findViewById(R.id.cvTortuga);
+        rlBallena = (CardView) findViewById(R.id.cvBallena);
+
+        cambiarTema = (Switch) findViewById(R.id.cambiarTema);
+
+        cambiarTema.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b) {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                } else {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                }
+            }
+        });
 
         rlAjolote.setOnClickListener(new View.OnClickListener() {
             @Override

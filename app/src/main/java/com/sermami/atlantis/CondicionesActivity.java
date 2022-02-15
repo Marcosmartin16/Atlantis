@@ -18,6 +18,8 @@ public class CondicionesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_condiciones);
 
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
+
         volver = findViewById(R.id.volver);
 
         volver.setOnClickListener(new View.OnClickListener() {

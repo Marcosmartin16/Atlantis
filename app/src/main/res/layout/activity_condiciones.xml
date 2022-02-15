@@ -2,9 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".CondicionesActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".CondicionesActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv"
@@ -39,6 +39,7 @@
                 android:text=""
                 android:textColor="@color/black"
                 android:textSize="17sp" />
+
             <TextView
                 android:id="@+id/titulo2"
                 android:layout_width="match_parent"
@@ -57,6 +58,7 @@
                 android:textColor="@color/black"
                 android:textSize="17sp" />
         </LinearLayout>
+
         <TextView
             android:id="@+id/titulo3"
             android:layout_width="match_parent"

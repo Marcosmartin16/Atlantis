@@ -42,11 +42,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/fab_margin"
+        android:backgroundTint="@color/rojo_titulo"
+        android:clickable="true"
+        android:contentDescription="@string/descripcion_fab"
+        android:focusable="true"
+        app:fabSize="normal"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
-        android:clickable="true"
-        app:fabSize="normal"
-        app:srcCompat="@drawable/ic_juego_foreground"
-        android:backgroundTint="@color/rojo_titulo"/>
+        app:srcCompat="@drawable/ic_juego2_foreground" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

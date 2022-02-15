@@ -19,8 +19,9 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
 
-
         openApp(true);
+
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
 
         ImageView ajolote = findViewById(R.id.ajo);
 

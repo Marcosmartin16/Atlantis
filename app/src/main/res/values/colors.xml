@@ -20,4 +20,7 @@
     <color name="amarillo_titulo">#D2E905</color>
     <color name="azulc_titulo">#3BCED4</color>
     <color name="semi_transparent">#66000000</color>
+
+    <color name="background_color">@color/white</color>
+    <color name="text_color">@color/black</color>
 </resources>

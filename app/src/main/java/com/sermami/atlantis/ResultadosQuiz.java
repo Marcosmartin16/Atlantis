@@ -17,13 +17,15 @@ public class ResultadosQuiz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_resultados);
 
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
+
         volver = findViewById(R.id.volver);
 
         TextView respuestasCorrectas = findViewById(R.id.respuestasCorrectas);
         TextView respuestasIncorrectas = findViewById(R.id.respuestasIncorrectas);
 
-        int getRespuestasCorrectas = getIntent().getIntExtra("correctas",0);
-        int getRespuestasIncorrectas = getIntent().getIntExtra("incorrectas",0);
+        int getRespuestasCorrectas = getIntent().getIntExtra("correctas", 0);
+        int getRespuestasIncorrectas = getIntent().getIntExtra("incorrectas", 0);
 
         respuestasCorrectas.setText(String.valueOf(getRespuestasCorrectas));
         respuestasIncorrectas.setText(String.valueOf(getRespuestasIncorrectas));

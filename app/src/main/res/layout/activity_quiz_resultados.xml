@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
     android:orientation="vertical"
     tools:context=".ResultadosQuiz">
-
-
 
     <TextView
         android:id="@+id/tvTitulo"
@@ -18,7 +17,7 @@
         android:gravity="center"
         android:text="@string/test_completado"
         android:textColor="@color/white"
-        android:textSize="50sp"></TextView>
+        android:textSize="50sp" />
 
     <LinearLayout
         android:id="@+id/ll"
@@ -36,7 +35,7 @@
             android:fontFamily="@font/ubuntu_bold"
             android:text="@string/respuestas_correctas"
             android:textColor="@color/verde_titulo"
-            android:textSize="25sp"></TextView>
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/respuestasIncorrectas"
@@ -46,7 +45,7 @@
             android:fontFamily="@font/ubuntu_bold"
             android:text="@string/respuestas_incorrectas"
             android:textColor="@android:color/holo_orange_dark"
-            android:textSize="25sp"></TextView>
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -62,4 +61,44 @@
         android:text="@string/volver_a_historia"
         android:textAllCaps="true"
         android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/loginalgaroja"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="-57dp"
+        android:contentDescription="@string/descripcion_alga_roja"
+        android:src="@drawable/algaroja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1"
+        app:layout_constraintTop_toBottomOf="@+id/ll" />
+
+    <ImageView
+        android:id="@+id/loginalga1"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="470dp"
+        android:contentDescription="@string/descripcion_alga_verde1"
+        android:src="@drawable/alga1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll" />
+
+    <ImageView
+        android:id="@+id/loginalga2"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="550dp"
+        android:contentDescription="@string/descripcion_alga_verde2"
+        android:src="@drawable/alga2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1"
+        app:layout_constraintTop_toBottomOf="@+id/ll" />
 </RelativeLayout>
