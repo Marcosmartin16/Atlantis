@@ -9,7 +9,7 @@ public class ArrayListPreguntas {
 
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
-        final ListaPreguntas pregunta1 = new ListaPreguntas("En qué año fue Ajolote", "Marcos", "Enrique Windows 11", "El Barrio", "Blvck mvmbv", "Blvck mvmbv", "");
+        final ListaPreguntas pregunta1 = new ListaPreguntas("En qué año fue Ajolote", "Marcos", "Enrique Windows 11", "El Barrio", "Blvck mvmbv", "Marcos", "");
         final ListaPreguntas pregunta2 = new ListaPreguntas("En qué año fue 2 + 2", "Marcos", "Enrique Windows 11", "El Barrio", "Blvck mvmbv", "Blvck mvmbv", "");
         final ListaPreguntas pregunta3 = new ListaPreguntas("En qué año fue 3 + 3", "Marcos", "Enrique Windows 11", "El Barrio", "Blvck mvmbv", "Blvck mvmbv", "");
         final ListaPreguntas pregunta4 = new ListaPreguntas("En qué año fue 4 + 4", "Marcos", "Enrique Windows 11", "El Barrio", "Blvck mvmbv", "Blvck mvmbv", "");
