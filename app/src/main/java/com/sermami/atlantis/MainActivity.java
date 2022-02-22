@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     private String temaElegido = "";
 
-    Switch cambiarTema;
 
     public MainActivity() {
         this.temaElegido = temaElegido;
@@ -54,18 +53,6 @@ public class MainActivity extends AppCompatActivity {
         rlTortuga = (CardView) findViewById(R.id.cvTortuga);
         rlBallena = (CardView) findViewById(R.id.cvBallena);
 
-        cambiarTema = (Switch) findViewById(R.id.cambiarTema);
-
-        cambiarTema.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (b) {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                } else {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                }
-            }
-        });
 
         rlAjolote.setOnClickListener(new View.OnClickListener() {
             @Override

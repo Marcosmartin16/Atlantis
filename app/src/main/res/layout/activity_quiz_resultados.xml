@@ -57,10 +57,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/round_back_yellow_stroke2"
+        android:background="@color/text_colorQuizBar"
         android:text="@string/volver_a_historia"
         android:textAllCaps="true"
-        android:textColor="@color/black" />
+        android:textColor="@color/text_color" />
 
     <ImageView
         android:id="@+id/loginalgaroja"

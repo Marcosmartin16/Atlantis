@@ -23,4 +23,8 @@
 
     <color name="background_color">@color/white</color>
     <color name="text_color">@color/black</color>
+    <color name="text_colorQuiz">@color/white</color>
+    <color name="text_color2">@color/azul_titulo</color>
+    <color name="text_color3">@color/azul_titulo</color>
+    <color name="text_colorQuizBar">@color/amarillo</color>
 </resources>
