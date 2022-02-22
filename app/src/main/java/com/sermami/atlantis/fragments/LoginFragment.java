@@ -1,15 +1,24 @@
 package com.sermami.atlantis.fragments;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.sermami.atlantis.MainActivity;
 import com.sermami.atlantis.R;
 
@@ -17,7 +26,10 @@ public class LoginFragment extends Fragment {
 
 
     Button entrar;
-
+    EditText logemail, logpassword;
+    FirebaseAuth mAuth;
+    FirebaseUser mUser;
+    ProgressDialog pd;
 
     public LoginFragment() {
     }
@@ -27,18 +39,45 @@ public class LoginFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View myView = inflater.inflate(R.layout.login_fragment, container, false);
-
+        pd = new ProgressDialog(getContext());
+        mAuth = FirebaseAuth.getInstance();
+        mUser = mAuth.getCurrentUser();
         entrar = (Button) myView.findViewById(R.id.btn_entrar);
-
+        logemail = (EditText) myView.findViewById(R.id.etlogEmail);
+        logpassword = (EditText) myView.findViewById(R.id.etlogPassword);
         entrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), MainActivity.class);
-                startActivity(intent);
+                log();
             }
         });
 
         return myView;
 
+    }
+    private void    log(){
+        String email = logemail.getText().toString();
+        String password = logpassword.getText().toString();
+
+        pd.setMessage("Entrando...");
+        pd.setTitle("Login");
+        pd.setCanceledOnTouchOutside(false);
+        pd.show();
+        mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if (task.isSuccessful()){
+                    pd.dismiss();
+                    Intent intent = new Intent(getActivity(), MainActivity.class);
+                    //intent.setFlags(Intent.FLA)
+                    startActivity(intent);
+                    Toast.makeText(getContext(), "Login completado",Toast.LENGTH_LONG).show();
+                }
+                else{
+                    pd.dismiss();
+                    Toast.makeText(getContext(), "Error en el registro",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
     }
 }

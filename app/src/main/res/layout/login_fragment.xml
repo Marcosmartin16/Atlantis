@@ -92,7 +92,7 @@
 
 
                 <EditText
-                    android:id="@+id/etEmail"
+                    android:id="@+id/etlogEmail"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
@@ -108,7 +108,7 @@
                     tools:ignore="TextFields" />
 
                 <EditText
-                    android:id="@+id/etPassword"
+                    android:id="@+id/etlogPassword"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
@@ -131,8 +131,8 @@
                     android:text="@string/NoTienesCuenta"
                     android:textColor="@color/white"
                     android:textSize="15sp"
-                    app:layout_constraintEnd_toEndOf="@id/etPassword"
-                    app:layout_constraintTop_toBottomOf="@id/etPassword" />
+                    app:layout_constraintEnd_toEndOf="@id/etlogPassword"
+                    app:layout_constraintTop_toBottomOf="@id/etlogPassword" />
 
 
                 <Button
