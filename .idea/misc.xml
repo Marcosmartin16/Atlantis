@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/drawable/side_nav.xml" value="0.1" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/activity_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/activity_main_drawer.xml" value="0.2028985507246377" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/app_bar_drawer.xml" value="0.2028985507246377" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/app_bar_main.xml" value="0.2028985507246377" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/content_drawer.xml" value="0.1" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/content_main.xml" value="0.2028985507246377" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/content_navigation_drawer.xml" value="0.2726449275362319" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/fragment_first.xml" value="0.2726449275362319" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/fragment_user.xml" value="0.2028985507246377" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/login_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/login_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/nav_header_drawer.xml" value="0.1" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/layout/signup_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis/app/src/main/res/menu/activity_main_drawer.xml" value="0.36614583333333334" />
         <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis2/app/src/main/res/layout/activity_historia.xml" value="0.2015625" />
         <entry key="..\:/Perfiles/am14dam2/Documents/Atlantis2/app/src/main/res/layout/activity_seleccion_historia.xml" value="0.25815217391304346" />
       </map>
