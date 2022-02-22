@@ -177,7 +177,7 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (respuestaUsuario.isEmpty()) {
-                    Toast.makeText(QuizActivity.this, "Por favor, elige una respuesta", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, getString(R.string.elige_respuesta), Toast.LENGTH_SHORT).show();
                 } else {
                     mostrarSiguientePregunta();
                 }

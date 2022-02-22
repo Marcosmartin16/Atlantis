@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/amarillo">
+        android:background="@color/text_colorQuizBar">
 
         <ImageView
             android:id="@+id/back_btn"
@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/selecciona_la_respuesta_correcta"
+            android:textColor="@color/text_color"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -40,20 +41,14 @@
             android:orientation="horizontal"
             tools:ignore="RelativeOverlap,UseCompoundDrawables">
 
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="15dp"
-                android:contentDescription="@string/descripcion_imagen_crono"
-                android:src="@drawable/btn_crono" />
-
             <TextView
                 android:id="@+id/tvTiempo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:text="@string/_00_59"
-                android:textColor="@color/black" />
+                android:textColor="@color/text_color"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
@@ -68,13 +63,13 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/white"
+        android:background="@color/text_colorQuiz"
         android:gravity="center"
         android:minHeight="100dp"
         android:padding="20dp"
         android:text="@string/aqui_ira_la_pregunta"
         android:textColor="@color/text_color"
-        android:textSize="16sp" />
+        android:textSize="24sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/respuesta1"
@@ -86,7 +81,8 @@
         android:background="@drawable/round_back_white_stroke2"
         android:text="@string/primera_opcion"
         android:textAllCaps="false"
-        android:textColor="#1F6BB8">
+        android:textColor="#1F6BB8"
+        android:textSize="20sp">
 
     </androidx.appcompat.widget.AppCompatButton>
 
@@ -100,7 +96,8 @@
         android:background="@drawable/round_back_white_stroke2"
         android:text="@string/segunda_opcion"
         android:textAllCaps="false"
-        android:textColor="#1F6BB8" />
+        android:textColor="#1F6BB8"
+        android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/respuesta3"
@@ -112,7 +109,8 @@
         android:background="@drawable/round_back_white_stroke2"
         android:text="@string/tercera_opcion"
         android:textAllCaps="false"
-        android:textColor="#1F6BB8" />
+        android:textColor="#1F6BB8"
+        android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/respuesta4"
@@ -124,7 +122,8 @@
         android:background="@drawable/round_back_white_stroke2"
         android:text="@string/cuarta_opcion"
         android:textAllCaps="false"
-        android:textColor="#1F6BB8" />
+        android:textColor="#1F6BB8"
+        android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/siguiente"
@@ -136,6 +135,7 @@
         android:background="@drawable/round_back_white_stroke_inverso"
         android:text="@string/siguiente"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </LinearLayout>
