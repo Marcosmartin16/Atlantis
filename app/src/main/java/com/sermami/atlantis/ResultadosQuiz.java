@@ -17,8 +17,6 @@ public class ResultadosQuiz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_resultados);
 
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
-
         volver = findViewById(R.id.volver);
 
         TextView respuestasCorrectas = findViewById(R.id.respuestasCorrectas);

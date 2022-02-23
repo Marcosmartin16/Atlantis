@@ -30,8 +30,6 @@ public class SecondActivity extends AppCompatActivity {
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = binding.viewPager;
         viewPager.setAdapter(sectionsPagerAdapter);
-
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
 //        TabLayout tabs = binding.tabs;
 //        tabs.setupWithViewPager(viewPager);
 //        FloatingActionButton fab = binding.fab;

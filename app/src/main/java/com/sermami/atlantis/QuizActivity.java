@@ -48,8 +48,6 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
-
         final TextView reloj = findViewById(R.id.tvTiempo);
         final TextView temaElegido = findViewById(R.id.tvTitulo);
 

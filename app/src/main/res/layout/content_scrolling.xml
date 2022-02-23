@@ -11,11 +11,12 @@
     android:padding="20dp">
 
     <TextView
-        android:id="@+id/tvStoryy"
+        android:id="@+id/tvHistoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:text="hola"
+        android:text=""
         android:textColor="@color/text_color"/>
+
 
 </androidx.core.widget.NestedScrollView>

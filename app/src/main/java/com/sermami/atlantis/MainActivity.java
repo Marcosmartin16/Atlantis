@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.azul_oscuro));
 
         rlAjolote = (CardView) findViewById(R.id.cvAjolote);
         rlLangosta = (CardView) findViewById(R.id.cvLangosta);
