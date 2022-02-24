@@ -18,7 +18,11 @@
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.Atlantis.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".SecondActivity"
@@ -42,17 +46,6 @@
             android:exported="true"
             android:theme="@style/Theme.Atlantis.Dark"></activity>
 
-        <activity
-            android:name=".Drawer"
-            android:exported="true"
-            android:theme="@style/Theme.Atlantis.Dark">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
