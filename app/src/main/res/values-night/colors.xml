@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">@color/black</color>
+    <color name="text_color">@color/white</color>
+    <color name="text_color2">@color/white</color>
+    <color name="text_color3">@color/black</color>
+    <color name="text_colorQuiz">@color/black</color>
+    <color name="text_colorQuizBar">@color/azul_oscuro</color>
+</resources>

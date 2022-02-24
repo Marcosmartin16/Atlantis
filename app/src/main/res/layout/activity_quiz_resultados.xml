@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".ResultadosQuiz">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="@string/test_completado"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/respuestasCorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/respuestas_correctas"
+            android:textColor="@color/verde_titulo"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/respuestasIncorrectas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/respuestas_incorrectas"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ll"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/text_colorQuizBar"
+        android:text="@string/volver_a_historia"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color" />
+
+    <ImageView
+        android:id="@+id/loginalgaroja"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="-57dp"
+        android:contentDescription="@string/descripcion_alga_roja"
+        android:src="@drawable/algaroja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1"
+        app:layout_constraintTop_toBottomOf="@+id/ll" />
+
+    <ImageView
+        android:id="@+id/loginalga1"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="470dp"
+        android:contentDescription="@string/descripcion_alga_verde1"
+        android:src="@drawable/alga1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll" />
+
+    <ImageView
+        android:id="@+id/loginalga2"
+        android:layout_width="182dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="550dp"
+        android:contentDescription="@string/descripcion_alga_verde2"
+        android:src="@drawable/alga2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/loginalga1"
+        app:layout_constraintTop_toBottomOf="@+id/ll" />
+</RelativeLayout>

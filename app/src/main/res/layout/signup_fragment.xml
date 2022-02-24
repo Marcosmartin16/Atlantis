@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/CLP"
-    tools:context=".fragments.Page2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient"
+    tools:context=".fragments.SignUpFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cl1"
@@ -26,6 +26,7 @@
             android:layout_height="560dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="-57dp"
+            android:contentDescription="@string/descripcion_alga_roja"
             android:src="@drawable/algaroja"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +42,7 @@
             android:layout_height="560dp"
             android:layout_marginStart="-150dp"
             android:layout_marginEnd="70dp"
+            android:contentDescription="@string/descripcion_alga_verde2"
             android:src="@drawable/alga2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/LogincardView"
@@ -56,6 +58,7 @@
             android:layout_height="560dp"
             android:layout_marginStart="-120dp"
             android:layout_marginTop="-180dp"
+            android:contentDescription="@string/descripcion_alga_verde1"
             android:src="@drawable/alga1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -87,46 +90,49 @@
 
 
                 <EditText
-                    android:id="@+id/etEmail"
+                    android:id="@+id/etlogEmail"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
-                    android:drawableLeft="@drawable/ic_email"
-                    android:hint="Email"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/ic_email"
+                    android:hint="@string/email"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:padding="8dp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/etUsername"
+                    android:id="@+id/etUser"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
-                    android:drawableLeft="@drawable/ic_user"
-                    android:hint="Usuario"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/ic_user"
+                    android:hint="@string/usuario"
                     android:inputType="text"
                     android:maxLines="1"
                     android:padding="8dp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/etPassword"
+                    android:id="@+id/etlogPassword"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_margin="8dp"
-                    android:drawableLeft="@drawable/ic_password"
-                    android:hint="Contraseña"
+                    android:autofillHints=""
+                    android:drawableStart="@drawable/ic_password"
+                    android:hint="@string/contrasenia"
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:padding="8dp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <CheckBox
                     android:id="@+id/checkBox"
@@ -137,12 +143,12 @@
                     android:layout_marginBottom="4dp"
                     android:checked="false"
                     android:minHeight="48dp"
-                    android:text="Acepto los términos y las condiciones"
+                    android:text="@string/terminos_y_condiciones"
                     android:textColor="@color/white" />
 
 
                 <Button
-                    android:id="@+id/btn_entrar"
+                    android:id="@+id/btn_crear"
                     style="@style/btn_entrar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -150,7 +156,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="8dp"
                     android:minHeight="48dp"
-                    android:text="Entrar" />
+                    android:text="@string/crear" />
 
 
             </LinearLayout>
@@ -165,9 +171,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="A"
+        android:text="@string/a"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
@@ -179,9 +185,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="T"
+        android:text="@string/t"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
@@ -193,9 +199,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="L"
+        android:text="@string/l"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.313"
@@ -207,9 +213,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="A"
+        android:text="@string/i"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
@@ -221,9 +227,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="N"
+        android:text="@string/n"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.635"
@@ -235,9 +241,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="T"
+        android:text="@string/t"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.785"
@@ -249,9 +255,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="I"
+        android:text="@string/i"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.833"
@@ -263,9 +269,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="S"
+        android:text="@string/s"
         android:textColor="@color/amarillo"
-        android:textSize="100dp"
+        android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.954"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="btn_entrar" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textSize">18dp</item>
         <item name="android:textColor">@color/amarillo</item>
@@ -11,7 +12,7 @@
     </style>
 
     <style name="mybutton" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:textSize">11dp</item>
+        <item name="android:textSize">10dp</item>
         <item name="android:textColor">@color/amarillo</item>
         <item name="android:strokeColor">@color/amarillo</item>
     </style>

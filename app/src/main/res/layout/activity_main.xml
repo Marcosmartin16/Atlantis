@@ -1,18 +1,438 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/descripcion_boton_back"
+                android:padding="15dp"
+                android:src="@drawable/btn_volver" />
+
+        </RelativeLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvAjolote"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgAjolote"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_ajolote"
+                android:src="@drawable/ajolote_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="false"
+                android:layout_marginStart="250dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/ajolote"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvCaballito"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgCaballito"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_caballito"
+                android:src="@drawable/caballito_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="200dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/caballito_de_mar"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTortuga"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgTortuga"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_tortuga"
+                android:src="@drawable/tortuga_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="240dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/tortuga_marina"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBallena"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgBallena"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_ballena"
+                android:src="@drawable/ballena_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="190dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/ballena_azul"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvCoral"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgCoral"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_coral"
+                android:src="@drawable/coral_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="270dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/coral"
+                android:textColor="@color/text_color2"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLangosta"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgLangosta"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_langosta"
+                android:src="@drawable/langosta_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="230dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/langosta"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLoboMarino"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgLoboMarino"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_lobo_marino"
+                android:src="@drawable/lobomarino_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="190dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/lobo_marino"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvPezGlobo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgPezGlobo"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_pez_globo"
+                android:src="@drawable/pezglobo_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="220dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/pez_globo"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvNarval"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgNarval"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_narval"
+                android:src="@drawable/narval_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="250dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/narval"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvAnemona"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgAnemona"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_anemona"
+                android:src="@drawable/anemona_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="150dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/anemona_de_mar"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTiburon"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgTiburon"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_tiburon"
+                android:src="@drawable/tiburon_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="150dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/tiburon_anguila"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvFoca"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:padding="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imgFoca"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:contentDescription="@string/descripcion_imagen_foca"
+                android:src="@drawable/foca_historia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="280dp"
+                android:fontFamily="@font/rowdies_regular"
+                android:text="@string/foca"
+                android:textColor="@color/text_color3"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+

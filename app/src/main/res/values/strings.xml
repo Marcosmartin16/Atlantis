@@ -3,73 +3,112 @@
     <string name="title_activity_second">SecondActivity</string>
     <string name="tab_text_1">Login</string>
     <string name="tab_text_2">Sign up</string>
+    <string name="hola">Yo, un abuelo y sus tres n</string>
     <string name="lorem_ipsum">
-                    Pues nada, gente, eh, aquí dejo lo que sería
-            Mi mayor creación hasta la fecha:
-            Justo un añito después de, del anterior
-            Y por supuesto dedicado a
-            Al señor Guille, y al señor Juanito
-            Ayps
-            Seguimos con los versos perversos demuestro a todos que ejerzo
-            De chico raro, con descaro, hijo de Amparo y de un tuerto
-            Mi tío es Berto, no Romero, no Tomillo
-            Ver todos los días al primo pillo, que pillaba frío y no se abriga
-            Le suena la barriga, ¿diga?
-            Hello, I am your belly, can you give me some comida?
-            Mira, of course I can, y compro un caldo de Avecrem
-            Se creen ustedes que soy rico, rico el caldo, Sabe bien
-            ¿Sabes qué más sabe bien? Jeje, exacto
-            Aunque parezca pintada por Goya, no es más que mi po-po-po
-            Poción traída de Troya, la han traído Luis, Bernardo, Ernesto
-            En esto que me da por ver el móvil; mensaje de texto
-            Resulta ser Felipe VI el remitente
-            Lo siento, brother, tengo el casoncio lleno e gente
-            No te rayes  le contesto  y, fuera de contexto, resto
-            Nueve menos dos son siete, increíble el gesto
-            Don Guillempleado, vetado, lo echaron del reservado
-            Se pira al prado y se corre mirando un cuadro doblado
-            Doblado él, no el cuadro, Champú o gel Soy calvo
-            Te ves muy bien, Qué guapo, ¿te pregunté, No, chato!
-            Sabes que Poncio Pilato
-            No se ha comprao los zapatos
-            Viene descalzo el jabato
-            Con los pelos del puto Arrebato
-            Y ahora te tiro unas líneas sin dar muchos datos
-            Son cosas banales, no de literatos
-            La cosa es que vengo y me quedo pa un rato
-            No miro el formato, te pongo el retrato
-            Me vienen dos culos mulatos
-            Dos culos bien grandes en un carromato
-            Culitos de marca, no culos baratos
-            Orondas las nalgas, bien anchos los anos
-            Los cubre una tela del tipo satén
-            La cosa es que huelen, y no huelen bien
-            Estamos hablando de anos hediondos
-            Estando en la calle producen asombro
-            Por sus dimensiones, por su basta peste
-            Subastan el fétido y étnico ambiente
-            Qué asco, qué guarro, pa guarra tu hermana
-            Se saca diez mocos por fin de semana
-            Y emana de aquí cierta sabiduría:
-            Si el culo es rojizo, muy mono sería
-            Sorprende desnudo en la charcutería
-            Mi abuelo Rogelio, con su brujería
-            Del Día salía un guía, prendía la party
-            Todo el mundo mano arriba and just move your body
-            Son las fiestas de mi pueblo, vente, Maribel
-            Se vino la Ana, se vino Susana, y la Magdalena también
-            Recién me enteré de que un toxicómano
-            Coma o no coma, se muere por verme
-            Me llaman la droga, panoja in my pants, rayitas de esencia
-            La demencia que es bélica y trágica, mágica
-            Pito y huevito, tal cual Maduro a final del jornal
-            ¡Yeah!, Ja
-            Nada más que añadir, señores: Marca Patxingar
-            Y espero que no pase otro año hasta el siguiente
-            Con Dios
-    </string>
+                Hola
+</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="historia_ajolote">
+        Soy el ajolote
+    </string>
+    <string name="historia_caballito">
+        Soy el caballito de mar
+    </string>
+    <string name="historia_tortuga">
+        Soy la tortuga
+    </string>
+    <string name="historia_coral">
+        Soy el coral
+    </string>
+    <string name="historia_langosta">
+        Soy la langosta
+    </string>
+    <string name="historia_narval">
+        Soy el narval
+    </string>
+    <string name="historia_lobo">
+        Soy el lobo
+    </string>
+    <string name="historia_foca">
+        Soy la foca
+    </string>
+    <string name="historia_pez">
+       Soy el pez
+    </string>
+    <string name="historia_ballena">
+       Soy la ballena
+    </string>
+    <string name="historia_anemona">
+        Soy la anemona
+    </string>
+    <string name="historia_tiburon">
+        Soy el tiburón
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="volver_a_historia">Volver a historia</string>
+    <string name="respuestas_incorrectas">Respuestas incorrectas : 0</string>
+    <string name="respuestas_correctas">Respuestas correctas : 0</string>
+    <string name="test_completado">¡Has completado el test!</string>
+    <string name="elige_una_historia">Elige una historia</string>
+    <string name="caballito_de_mar">Caballito de mar</string>
+    <string name="ballena_azul">Ballena azul</string>
+    <string name="ajolote">Ajolote</string>
+    <string name="tortuga_marina">Tortuga marina</string>
+    <string name="coral">Coral</string>
+    <string name="pez_globo">Pez globo</string>
+    <string name="anemona_de_mar">Anémona de mar</string>
+    <string name="langosta">Langosta</string>
+    <string name="lobo_marino">Lobo marino</string>
+    <string name="foca">Foca</string>
+    <string name="tiburon_anguila">Tiburón anguila</string>
+    <string name="narval">Narval</string>
+    <string name="selecciona_la_respuesta_correcta">Selecciona la respuesta correcta</string>
+    <string name="aqui_ira_la_pregunta">Aquí irá la pregunta...</string>
+    <string name="_00_59">00:59</string>
+    <string name="primera_opcion">Primera opción</string>
+    <string name="segunda_opcion">Segunda opción</string>
+    <string name="tercera_opcion">Tercera opción</string>
+    <string name="cuarta_opcion">Cuarta opción</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="crear">Crear</string>
+    <string name="a">A</string>
+    <string name="t">T</string>
+    <string name="terminos_y_condiciones">Acepto los términos y las condiciones</string>
+    <string name="l">L</string>
+    <string name="n">N</string>
+    <string name="i">I</string>
+    <string name="s">S</string>
+    <string name="volver">volver</string>
+    <string name="NoTienesCuenta">¿No tienes cuenta? Desliza hacia la izquierda</string>
+    <string name="cambiar_tema">Cambiar tema</string>
+    <string name="descripcion_alga_roja">Imagen de un alga roja</string>
+    <string name="descripcion_alga_verde1">Primera imagen de un alga verde </string>
+    <string name="descripcion_alga_verde2">Segunda imagen de un alga verde </string>
+    <string name="descripcion_alga_verde3">Tercera imagen de un alga verde </string>
+    <string name="descripcion_boton_back">Imagen de un boton que nos permite volver hacia atras</string>
+    <string name="descripcion_imagen_ajolote">Imagen de un ajolote</string>
+    <string name="descripcion_imagen_caballito">Imagen de un caballito de mar</string>
+    <string name="descripcion_imagen_tortuga">Imagen de una tortuga</string>
+    <string name="descripcion_imagen_ballena">Imagen de una ballena azul</string>
+    <string name="descripcion_imagen_coral">Imagen de un coral</string>
+    <string name="descripcion_imagen_langosta">Imagen de una langosta</string>
+    <string name="descripcion_imagen_lobo_marino">Imagen de un lobo marino</string>
+    <string name="descripcion_imagen_pez_globo">Imagen de un pez globo</string>
+    <string name="descripcion_imagen_narval">Imagen de un narval</string>
+    <string name="descripcion_imagen_anemona">Imagen de una anémona</string>
+    <string name="descripcion_imagen_tiburon">Imagen de un tiburón anguila</string>
+    <string name="descripcion_imagen_foca">Imagen de una foca</string>
+    <string name="descripcion_imagen_crono">Imagen del crono utilizado en el quiz</string>
+    <string name="descripcion_fab">Floating action button el cual nos permitirá ingresar al quiz</string>
+    <string name="email">Email</string>
+    <string name="descripcion_imagen_ajolote_ss">Imagen del ajolote la cual es utilizada en el Splash Screen</string>
+    <string name="descripcion_pompa">Pompas utilizadas en el Splash Screen</string>
+    <string name ="elige_respuesta">Por favor, elige una respuesta</string>
 
 
 </resources>
