@@ -3,49 +3,161 @@
     <string name="title_activity_second">SecondActivity</string>
     <string name="tab_text_1">Login</string>
     <string name="tab_text_2">Sign up</string>
-    <string name="hola">Yo, un abuelo y sus tres n</string>
-    <string name="lorem_ipsum">
-                Hola
-</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="historia_ajolote">
-        Soy el ajolote
-    </string>
-    <string name="historia_caballito">
-        Soy el caballito de mar
-    </string>
+
+    <!-- Historias Marcos -->
     <string name="historia_tortuga">
         Soy la tortuga
     </string>
     <string name="historia_coral">
         Soy el coral
     </string>
-    <string name="historia_langosta">
-        Soy la langosta
-    </string>
-    <string name="historia_narval">
-        Soy el narval
-    </string>
-    <string name="historia_lobo">
-        Soy el lobo
-    </string>
-    <string name="historia_foca">
-        Soy la foca
-    </string>
     <string name="historia_pez">
        Soy el pez
-    </string>
-    <string name="historia_ballena">
-       Soy la ballena
     </string>
     <string name="historia_anemona">
         Soy la anemona
     </string>
+
+    <!-- Historias Miguel -->
     <string name="historia_tiburon">
         Soy el tiburón
     </string>
+    <string name="historia_ballena">
+       Soy la ballena
+    </string>
+    <string name="historia_foca">
+        Soy la foca
+    </string>
+    <string name="historia_narval">
+        Soy el narval
+    </string>
+
+    <!-- Historias Sergio -->
+    <string name="historia_ajolote">
+        Entre la extraordinaria fauna mexicana existe una asombrosa especie, el ajolote mexicano (Ambystoma mexicanum).
+        De rara apariencia física, es poseedora de facultades extraordinarias: Tiene la excepcional capacidad de regenerar miembros perdidos,
+        e incluso ¡parte del cerebro!… y del ¡corazón!\n \n
+
+        El ajolote originario y endémico (vive únicammente) de los lagos del Valle de México y que sobrevive en el lago de Xochimilco,
+        fue llamado por los antiguos mexicanos axolotl (del náhuatl, “monstruo de agua”) y conserva características milenarias de
+        las salamandras, pero es más cercano a ranas y sapos.\n \n
+
+        Sin embargo, parece haber olvidado su aptitud de desplazarse por tierra, pues aunque posee cuatro patas que le
+        permiten caminar, además de una cola que conserva tras la metamorfosis (transformación), solo sube a la superficie
+        del lago para respirar y en seguida se sumerge.\n \n
+
+        De color negro o marrón moteado, albino o blanco, el ajolote mexicano conserva su aleta dorsal de renacuajo que se
+        extiende casi por todo su cuerpo que mide desde 15 y hasta 30 centímetros de longitud, y sus branquias externas en
+        forma de plumas sobresalen de la parte trasera de su ancha cabeza.\n \n
+
+        Nuestra singular salamandra se alimenta de moluscos, gusanos, larvas, crustáceos y uno que otro pez,
+        pero no ha podido librarse de las garzas (tipo de ave) que la engullen y menos aún de su principal depredador,
+        el humano, que además ha introducido al lago de Xochimilco y sus canales grandes peces que amenazan su sobrevivencia.\n \n
+
+        Desde antes de la Colonia hasta la actualidad, el ajolote ha sido alimento muy apreciado por su sabor y
+        propiedades nutritivas, lo mismo preparado en tamales que en sopas y guisados,
+        que aprovechado en la medicina tradicional en fórmulas de jarabe, pomada o infusiones,
+        contra padecimientos respiratorios.\n \n
+
+        Tantas virtudes hicieron que esta singular criatura fuera llevada al peligro de extinción,
+        pues la mayoría de los ciudadanos ignora que es necesaria la repoblación del ajolote mexicano,
+        lo mismo que frenar la degradación de su hábitat lacustre (lago en el que vive).
+    </string>
+    <string name="historia_caballito">
+        Los caballitos de mar llaman la atención. Su aspecto de caballo en cuerpo de pez es el origen de su nombre.
+        Por las especies más vistosas se pueden llegar a pagar miles de euros y en algunos puntos del planeta están en
+        peligro por sus usos medicinales en algunos países. Al sur de Portugal, se localizaba la mayor población mundial
+        de caballitos de mar. En muy poco espacio vivían 600.000 ejemplares de dos especies ahora apenas quedan 155.000.
+        Ahora están en peligro de extinción. \n \n
+
+        Los caballitos de mar son peces. Sin embargo, son diferentes a los demás peces, pues tienen un cuello flexible,
+        un hocico y una cola ágil. Pueden mover cada ojo de forma independiente. La cola del caballito de mar está
+        organizada en prismas cuadrados, rodeados de placas óseas.
+        Utilizan sus colas como anclas.
+        Su forma resiste mejor el daño y presenta un mejor agarre que si fuera circular.
+        Suelen vivir entre 4 a 6 años. Habitan entre los corales, macroalgas, fanerógamas (plantas con semillas)
+        marinas y manglares.\n \n
+
+        Son malos nadadores. Los caballitos de mar se impulsan a través del agua utilizando una aleta dorsal que aletea
+        entre 30 a 70 veces por segundo. Pero esa pequeña aleta puede provocar que los caballitos de mar mueran de
+        agotamiento cuando intentan navegar por mares tormentosos. El caballito de mar nada a una velocidad de 300
+        centímetros por minuto, tres veces más lento que un caracol. \n\n
+
+        No tienen dientes ni estómagos. Succionan enteras a sus presas hasta 3 cm de distancia.
+        Debido a que carecen de estómagos, los caballitos tienen que comer casi todo el tiempo por el rápido proceso de
+        digestión. Y con la misma rapidez que come, defeca. Se alimentan de pequeños crustáceos, invertebrados y larvas
+        de peces. Y su principal alimento en acuario es Artemia un pequeño crustáceo.
+        Un caballito de mar puede ingerir 3.000 artemias al día. \n\n
+
+        Algunos caballitos de mar son capaces de cambiar de color para mezclarse con el entorno.
+        La mejor defensa de los caballitos contra sus depredadores es el camuflaje.
+        Los machos suelen luchar entre ellos con sus colas durante la temporada de apareamiento.
+        Las hembras también pelean contra si o con otros machos, luchan por territorio o comida. \n \n
+
+        En pareja, los caballitos de mar nadan juntos agarrándose de sus colas.
+        Antes de aparearse, realizan un danza que culmina en la fertilización de los oocitos de la hembra y los
+        cuales el macho cobija en la zona ventral. Ahí se quedarán hasta que los pequeños están listos para salir.
+        Entonces llegan las contracciones musculares y la expulsión de sus pequeños.
+        Un caballito macho tiene que pasar 45 días de embarazo y puede llegar a tener 1.500 o hasta 1.800 crías.
+        Muy pocas larvas llegan al estado adulto (1%). \n\n
+
+        Existen alrededor de 50 especies diferentes de caballitos de mar.
+        La especie más pequeña es Hippocampus japapigu, esta especie mide unos 15 milímetros de largo.
+        La especie más grande es Hippocampus ingens. Los machos pueden medir 30 centímetros de largo.
+    </string>
+    <string name="historia_langosta">
+        Es un crustáceo decápodo (tiene 10 patas). Vive en fondos rocosos no demasiado profundos y normalmente de menos de 100 m.
+        escondida entre las rocas. Raramente puede encontrarse en fondos pedregosos (que tiene muchas piedras).
+        Están emparentadas con los Cangrejos de río. Pesan entre 700 gramos y 7 kilos y su dimensión puede ser de entre 25 y 50 cm. \n \n
+
+        A pesar de su apariencia pesada, es capaz de nadar gracias a las potentes contracciones de su cola fuertemente musculada.
+        Esta es la parte que la hace muy apreciada gastronómicamente. \n
+
+        De hábitos nocturnos, la langosta es muy voraz y se alimenta de todo lo que encuentra, aunque sus preferencias se
+        centran en poliquetos (gusanos), crustáceos, moluscos, algas, restos orgánicos y gusanos. Destaca el hecho de que es
+        capaz de romper las duras conchas de los bivalvos, pese a carecer de pinzas. \n \n
+
+        Según el Libro de los Récords, la langosta más grande fue capturada en Nueva Escocia (Canadá), y pesaba 20,14 kg. \n
+        Cuando la langosta crece, debe mudar el duro caparazón calcificado que la recubre, (esta operación la realiza varias
+        veces a lo largo de su vida). Es precisamente cuando se desprende de su vieja armadura que el animal es muy vulnerable,
+        puesto que el nuevo caparazón no se endurece hasta al cabo de unas horas. Este exoesqueleto es, a menudo, devorado por
+        la langosta para reponer así las reservas de calcio de su organismo. \n \n
+
+        La langosta emplea sus largas antenas para ahuyentar a sus enemigos, interponiéndolas entre ella y el intruso.
+        También las usa para conocer su entorno inmediato mediante el tacto, una habilidad necesaria en las condiciones de baja
+        iluminación típicas de las grietas y agujeros en los que vive. \n \n
+
+        Durante su migración o viaje, las langostas forman una fila tocando con las antenas la cola de la langosta de
+        enfrente. Las langostas pueden formar filas de hasta 100,000 individuos, la fila tiene la apariencia de una anguila
+        o serpiente gigantesca. Si un animal atrevido intenta atacarlas, las langostas forman un círculo con la cola hacia
+        el centro y todas sus espinas hacia fuera. \n \n
+
+    </string>
+    <string name="historia_lobo">
+        El aspecto de esta especie varía más que el de cualquier otra familia con la edad y con el sexo.
+        Los machos adultos tienen el cuello muy largo cubierto de pelaje espeso y grueso con relación al resto del cuerpo.
+        Su hocico es corto y levantado, adornado con largos bigotes. \n \n
+
+        La longitud total del animal puede llegar hasta los 3,50 metros. Las hembras no pasan los 2,50 metros,
+        sus formas son delgadas y elegantes, el cuello no adquiere el mismo grosor que el de los machos y carecen de melena. \n \n
+
+        Los cachorros, al nacer, miden poco más de 40 cm. y están cubiertos de un pelo corto y de aspecto sano de color casi negro.\n \n
+
+        Los lobos marinos pasan casi todo el tiempo en el mar. Son muy hábiles en el agua, cuando salen a la tierra,
+        buscan las rocas o los islotes más solitarios y caminan con el cuerpo levantado sobre los 4 miem,
+        con movimientos torpes, pero bastante rápidos.Su alimento se compone exclusivamente de peces.
+        Devoran entre 15 y 25 kg por día. \n \n
+
+        Al llegar la primavera comienzan a reunirse en las loberías; primero llegan los machos,
+        que pasan casi todo el día en la tierra y poco después llegan las hembras que vienen a dar a luz.
+        Durante un período de unas 5 semanas estos animales no van al agua y por consiguiente, no comen.
+        Los machos van formando sus harenes, peleándose entre sí para ver qué junta mayor número de hembras.
+        Todo es un continuo movimiento y también es el momento donde las orcas se acercan para obtener su preciada presa,
+        los lobos cachorros…
+    </string>
+
     <string name="action_settings">Settings</string>
     <string name="volver_a_historia">Volver a historia</string>
     <string name="respuestas_incorrectas">Respuestas incorrectas : 0</string>
@@ -65,7 +177,7 @@
     <string name="tiburon_anguila">Tiburón anguila</string>
     <string name="narval">Narval</string>
     <string name="selecciona_la_respuesta_correcta">Selecciona la respuesta correcta</string>
-    <string name="aqui_ira_la_pregunta">Aquí irá la pregunta...</string>
+    <string name="aqui_ira_la_pregunta">Aquí irá la pregunta…</string>
     <string name="_00_59">00:59</string>
     <string name="primera_opcion">Primera opción</string>
     <string name="segunda_opcion">Segunda opción</string>
@@ -108,7 +220,5 @@
     <string name="email">Email</string>
     <string name="descripcion_imagen_ajolote_ss">Imagen del ajolote la cual es utilizada en el Splash Screen</string>
     <string name="descripcion_pompa">Pompas utilizadas en el Splash Screen</string>
-    <string name ="elige_respuesta">Por favor, elige una respuesta</string>
-
-
+    <string name="elige_respuesta">Por favor, elige una respuesta</string>
 </resources>

@@ -4,49 +4,156 @@
     <string name="title_activity_second">SecondActivity</string>
     <string name="tab_text_1">Login</string>
     <string name="tab_text_2">Sign up</string>
-    <string name="hola">Yo, un abuelo y sus tres n</string>
-    <string name="lorem_ipsum">
-                Hola
-</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="historia_ajolote">
-        I am the axolotl
-    </string>
-    <string name="historia_caballito">
-        I am the seahorse
-    </string>
+
+    <!-- Historias Marcos -->
     <string name="historia_tortuga">
         I am the sea turtle
     </string>
     <string name="historia_coral">
         I am the coral
     </string>
-    <string name="historia_langosta">
-        I am the lobster
-    </string>
-    <string name="historia_narval">
-        I am the narwhal
-    </string>
-    <string name="historia_lobo">
-        I am the sea wolf
-    </string>
-    <string name="historia_foca">
-        I am the seal
-    </string>
     <string name="historia_pez">
        I am the puffer fish
-    </string>
-    <string name="historia_ballena">
-       I am the blue whale
     </string>
     <string name="historia_anemona">
         I am the sea anemone
     </string>
+
+    <!-- Historias Miguel -->
     <string name="historia_tiburon">
         I am the frilled shark
     </string>
+    <string name="historia_ballena">
+       I am the blue whale
+    </string>
+    <string name="historia_narval">
+        I am the narwhal
+    </string>
+    <string name="historia_foca">
+        I am the seal
+    </string>
+
+    <!-- Historias Sergio -->
+    <string name="historia_ajolote">
+        Among the extraordinary Mexican fauna there is an amazing species, the Mexican axolotl (Ambystoma mexicanum).
+        It has an unusual physical appearance, it\'s the possessor of extraordinary faculties:
+        It has the exceptional capacity to regenerate lost organs,
+        and even part of the brain!… and the heart! \n \n
+
+        The native and endemic axolotl (lives only) of the lakes of the Valley of Mexico and survives in Lake Xochimilco,
+        It was called by the ancient Mexicans axolotl (from Nahuatl, "water monster") and retains ancient characteristics of
+        salamanders, but is closer to frogs and toads.\n \n
+
+        However, it seems to have forgotten his ability to move on land, because although he has four legs that
+        allow him walking, in addition to a tail that it retains after metamorphosis (transformation),
+        it only rises to the surface of the lake to breathe and immediately submerges.\n \n
+
+        Black or mottled brown, albino or white, the Mexican axolotl retains its tadpole dorsal fin that extends almost
+        throughout its entire body, which measures from 15 to 30 centimeters in length, and its external gills are
+        shaped like feathers protrude from the back of its broad head.\n \n
+
+        This axolotl feeds on molluscs, worms, larvae, crustaceans and the occasional fish, but it has not been able to
+        get rid of the herons (type of bird) that engulf him and even less of its main predator, the human,
+        who has also introduced large fish to Lake Xochimilco and its channels that threaten its survival.\n \n
+
+        From before the Colony to the present, the axolotl has been a highly appreciated food for its flavor and
+        nutritional properties, the same prepared in tamales as in soups and stews, that used in traditional medicine
+        in formulas of syrup, ointment or infusions, against respiratory ailments.\n \n
+
+        So many virtues made this unique creature was taken to the danger of extinction, because most citizens
+        ignore that the repopulation of the Mexican axolotl is necessary,
+        the same as stopping the degradation of its lacustrine habitat (lake where it lives).
+    </string>
+    <string name="historia_caballito">
+        Seahorses attract attention. Its horse appearance in the body of a fish is the origin of its name.
+        Thousands of euros can be paid for the most showy species and in some parts of the planet they are in
+        danger for its medicinal uses in some countries. In the south of Portugal, the world\'s largest population, was
+        located of seahorses. In a very small space, 600,000 specimens of two species lived, now there are only 155,000 left.
+        They are now in danger of extinction. \n \n
+
+        Seahorses are fish. However, they are different from other fish, as they have a flexible neck,
+        a snout and a nimble tail. They can move each eye independently. The seahorse\'s tail is
+        organized in square prisms, surrounded by bony plates.
+        They use their tails as anchors.
+        Its shape resists damage better and has a better grip than if it were circular.
+        They usually live between 4 to 6 years. They live among corals, macroalgae, phanerogams (seed plants)
+        marine and mangroves.\n \n
+
+        They have no teeth or stomachs. They suck their prey whole up to 3 cm away.
+        Because they lack stomachs, seahorses have to eat most of the time because of the rapid process of
+        digestion. And as quickly as it eats, it defecates. They feed on small crustaceans, invertebrates and fishe\'s larvae.
+        And its main food in the aquarium is Artemia, a small crustacean.
+        A seahorse can eat 3,000 brine shrimp a day. \n\n
+
+        Some seahorses are capable of changing color to blend in with their surroundings.
+        The seahorses\' best defense against predators is camouflage.
+        The males often fight each other with their tails during the mating season.
+        The females also fight with each other or with other males, fighting for territory or food. \n \n
+
+        In pairs, seahorses swim together holding on to each other\'s tails.
+        Before mating, they perform a dance that culminates in the fertilization of the female\'s oocytes and the
+        which the male shelters in the ventral area. They will stay there until the little ones are ready to leave.
+        Then come the muscular contractions and the expulsion of their little ones.
+        A male horse has to go through 45 days of pregnancy and can have 1,500 or even 1,800 offspring.
+        Very few larvae reach the adult stage (1%). \n\n
+
+        There are about 50 different species of seahorses.
+        The smallest species is Hippocampus japapigu, this species is about 15 millimeters long.
+        The largest species is Hippocampus ingens. Males can be 30 centimeters long.
+    </string>
+    <string name="historia_langosta">
+        It is a decapod crustacean (it has 10 legs). It lives on rocky bottoms that are not too deep and usually less than
+        100 m. hidden among the rocks. It can rarely be found on rocky bottoms (which have many stones).
+        They are related to river crabs. They weigh between 700 grams and 7 kilos and their dimension can be between 25 and
+        50 cm. \n \n
+
+        Despite its heavy appearance, it is able to swim thanks to the powerful contractions of its heavily muscled tail.
+        This is the part that makes it highly appreciated gastronomically. \n
+
+        Of nocturnal habits, the lobster is very voracious and feeds on everything it finds, although its preferences are
+        focus on polychaetes (worms), crustaceans, molluscs, algae, organic debris and worms. It highlights the fact that it is
+        capable of breaking the hard shells of bivalves, despite lacking tweezers. \n \n
+
+        According to the Book of Records, the largest lobster was caught in Nova Scotia (Canada), weighing 20.14 kg. \n
+        When the lobster grows, it must shed the hard calcified shell that covers it (this operation is carried out several
+        times throughout his life). It is precisely when it sheds its old armor that the animal is very vulnerable,
+        since the new shell does not harden until after a few hours. This exoskeleton is often eaten by
+        lobster to replenish the body\'s calcium reserves. \n \n
+
+        The locust uses its long antennae to drive away its enemies, putting them between itself and the intruder.
+        He also uses them to learn his immediate surroundings through touch, a necessary skill in low-light conditions.
+        lighting typical of the cracks and holes in which you live. \n \n
+
+        During their migration or journey, the locusts form a line touching the tail of the locust with their antennae.
+        in front. Lobsters can form rows of up to 100,000 individuals, the row has the appearance of an eel
+        or gigantic snake. If a daring animal tries to attack them, the locusts form a circle with their tails facing
+        the center and all its spines out. \n \n
+    </string>
+    <string name="historia_lobo">
+        The appearance of this species varies more than that of any other family with age and sex.
+        Adult males have a very long neck covered with thick and thick fur in relation to the rest of the body.
+        Its snout is short and raised, adorned with long whiskers. \n \n
+
+        The total length of the animal can reach up to 3.50 meters. The females do not exceed 2.50 meters,
+        their forms are slim and elegant, the neck does not acquire the same thickness as that of the males and they lack a mane. \n \n
+
+        The cubs, at birth, measure just over 40 cm. and are covered in short, healthy-looking hair that is almost black in color.\n \n
+
+        Sea lions spend almost all their time in the sea. They are very skilled in the water, when they come out on land,
+        look for the loneliest rocks or islets and walk with the body raised on the 4 limbs,
+        with clumsy movements, but quite fast. Their food consists exclusively of fish.
+        They devour between 15 and 25 kg per day. \n \n
+
+        When spring arrives they begin to gather in the sea lion colonies; males arrive first
+        They spend almost the whole day on land and soon after the females arrive to give birth.
+        For a period of about 5 weeks these animals do not go to the water and therefore do not eat.
+        The males form their harems, fighting with each other to see which can bring together the largest number of females.
+        Everything is a continuous movement and it is also the moment where the killer whales approach to obtain their precious prey,
+        pup wolves…
+    </string>
+
     <string name="action_settings">Settings</string>
     <string name="volver_a_historia">Back to story selection</string>
     <string name="respuestas_incorrectas">Incorrects answers: 0</string>
@@ -86,7 +193,6 @@
     <string name="s">S</string>
     <string name="volver">Back</string>
     <string name="NoTienesCuenta">Don\'t you have an account? Swipe to the left</string>
-
     <string name="cambiar_tema">Change theme</string>
     <string name="descripcion_alga_roja">Image of a red algae</string>
     <string name="descripcion_alga_verde1">First image of a green algae</string>
@@ -110,5 +216,5 @@
     <string name="descripcion_alga_verde3">Third image of a green algae</string>
     <string name="descripcion_imagen_ajolote">Image of an axolotl</string>
     <string name="email">Email</string>
-    <string name ="elige_respuesta">Please, select an answer</string>
+    <string name="elige_respuesta">Please, select an answer</string>
 </resources>
