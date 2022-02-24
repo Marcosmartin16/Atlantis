@@ -19,14 +19,6 @@
             android:layout_height="?actionBarSize">
 
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:contentDescription="@string/descripcion_boton_back"
-                android:padding="15dp"
-                android:src="@drawable/btn_volver" />
-
         </RelativeLayout>
 
 
@@ -57,7 +49,7 @@
                 android:layout_marginStart="250dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/ajolote"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
 
@@ -90,7 +82,7 @@
                 android:layout_marginStart="200dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/caballito_de_mar"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
         </androidx.cardview.widget.CardView>
@@ -123,7 +115,7 @@
                 android:layout_marginStart="240dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/tortuga_marina"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
 
@@ -157,7 +149,7 @@
                 android:layout_marginStart="190dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/ballena_azul"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
         </androidx.cardview.widget.CardView>
@@ -222,7 +214,7 @@
                 android:layout_marginStart="230dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/langosta"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
         </androidx.cardview.widget.CardView>
@@ -255,7 +247,7 @@
                 android:layout_marginStart="190dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/lobo_marino"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
 
@@ -289,7 +281,7 @@
                 android:layout_marginStart="220dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/pez_globo"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
 
@@ -321,7 +313,7 @@
                 android:layout_marginStart="250dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/narval"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
 
 
@@ -355,7 +347,7 @@
                 android:layout_marginStart="150dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/anemona_de_mar"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
 
@@ -387,7 +379,7 @@
                 android:layout_marginStart="150dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/tiburon_anguila"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
 
@@ -419,7 +411,7 @@
                 android:layout_marginStart="280dp"
                 android:fontFamily="@font/rowdies_regular"
                 android:text="@string/foca"
-                android:textColor="@color/text_color3"
+                android:textColor="@color/text_color2"
                 android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
 

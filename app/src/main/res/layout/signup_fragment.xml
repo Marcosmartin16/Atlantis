@@ -134,17 +134,6 @@
                     android:textColorHint="@color/white"
                     android:textSize="20sp" />
 
-                <CheckBox
-                    android:id="@+id/checkBox"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="4dp"
-                    android:checked="false"
-                    android:minHeight="48dp"
-                    android:text="@string/terminos_y_condiciones"
-                    android:textColor="@color/white" />
 
 
                 <Button
@@ -213,7 +202,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="@string/i"
+        android:text="@string/a"
         android:textColor="@color/amarillo"
         android:textSize="100sp"
         app:layout_constraintBottom_toTopOf="@+id/cl1"

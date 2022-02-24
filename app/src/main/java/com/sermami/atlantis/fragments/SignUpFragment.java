@@ -20,14 +20,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.sermami.atlantis.CondicionesActivity;
 import com.sermami.atlantis.MainActivity;
 import com.sermami.atlantis.R;
 
 
 public class SignUpFragment extends Fragment {
 
-    CheckBox terminos;
     Button crear;
     EditText inputemail, inputpassword, inputuser;
     FirebaseAuth mAuth;
@@ -50,19 +48,8 @@ public class SignUpFragment extends Fragment {
         inputemail = (EditText)myView.findViewById(R.id.etlogEmail);
         inputpassword = (EditText)myView.findViewById(R.id.etlogPassword);
         inputuser = (EditText)myView.findViewById(R.id.etUser);
-        terminos = (CheckBox) myView.findViewById(R.id.checkBox);
         crear = (Button) myView.findViewById(R.id.btn_crear);
         pd = new ProgressDialog(getContext());
-
-
-        terminos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), CondicionesActivity.class);
-                startActivity(intent);
-            }
-        });
-
 
 
         crear.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +68,7 @@ public class SignUpFragment extends Fragment {
         String password = inputpassword.getText().toString();
 
         pd.setMessage("Espere a que se complete el registro...");
-        pd.setTitle("Resgistro");
+        pd.setTitle("Registro");
         pd.setCanceledOnTouchOutside(false);
         pd.show();
         mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

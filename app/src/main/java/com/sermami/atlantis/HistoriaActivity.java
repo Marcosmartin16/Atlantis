@@ -16,9 +16,10 @@ import android.widget.TextView;
 import com.sermami.atlantis.databinding.ActivityScrollingBinding;
 
 public class HistoriaActivity extends AppCompatActivity {
-    private enum Animales{
-        ajolote, caballito, langosta, lobo, coral, anemona,pez, foca, tiburon, tortuga, ballena,narval;
+    private enum Animales {
+        ajolote, caballito, langosta, lobo, coral, anemona, pez, foca, tiburon, tortuga, ballena, narval;
     }
+
     private ActivityScrollingBinding binding;
     String temaElegido;
     MainActivity ma;
