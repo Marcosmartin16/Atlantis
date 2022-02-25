@@ -28,7 +28,7 @@
 Al iniciar la aplicación, aparecerá una pantalla en la que se muestra un ajolote (logo de esta app)
 moviéndose entre un mar lleno de algas y con burbujas que le rodean.
 
-![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/splash_screen.PNG)
+![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/SplashScreen.PNG)
 
 Código fuente de Splash Screen:
 
@@ -160,8 +160,8 @@ activity las respuestas que este ha acertado en color verde, y las que ha fallad
 Si hace click sobre el botón volver a selección historias, volverá al Main Activity, donde podrá
 elegir la nueva historia que quiera leer.
 
-![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/CO_ActivityMain.PNG)
-![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/IC_ActivityMain.PNG)
+![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/CO_Resultados.PNG)
+![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/IC_Resultados.PNG)
 
 Código fuente de Resultados:
 
