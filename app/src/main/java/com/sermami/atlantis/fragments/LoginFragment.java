@@ -1,5 +1,8 @@
 package com.sermami.atlantis.fragments;
 
+import static com.sermami.atlantis.R.string.*;
+import static com.sermami.atlantis.R.string.Entrando;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -55,27 +58,26 @@ public class LoginFragment extends Fragment {
         return myView;
 
     }
-    private void    log(){
+
+    private void log() {
         String email = logemail.getText().toString();
         String password = logpassword.getText().toString();
 
-        pd.setMessage("Entrando...");
+        pd.setMessage(getString(Entrando));
         pd.setTitle("Login");
         pd.setCanceledOnTouchOutside(false);
         pd.show();
-        mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
+                if (task.isSuccessful()) {
                     pd.dismiss();
                     Intent intent = new Intent(getActivity(), MainActivity.class);
-                    //intent.setFlags(Intent.FLA)
                     startActivity(intent);
-                    Toast.makeText(getContext(), "Login completado",Toast.LENGTH_LONG).show();
-                }
-                else{
+                    Toast.makeText(getContext(), loginCompletado, Toast.LENGTH_LONG).show();
+                } else {
                     pd.dismiss();
-                    Toast.makeText(getContext(), "Error en el registro",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), loginError, Toast.LENGTH_LONG).show();
                 }
             }
         });

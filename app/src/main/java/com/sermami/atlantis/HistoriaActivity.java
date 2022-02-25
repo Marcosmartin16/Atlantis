@@ -2,17 +2,14 @@ package com.sermami.atlantis;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.sermami.atlantis.databinding.ActivityScrollingBinding;
 
 public class HistoriaActivity extends AppCompatActivity {

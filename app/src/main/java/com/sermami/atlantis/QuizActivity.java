@@ -1,5 +1,7 @@
 package com.sermami.atlantis;
 
+import static com.sermami.atlantis.R.string.*;
+
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -7,7 +9,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -175,7 +176,7 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (respuestaUsuario.isEmpty()) {
-                    Toast.makeText(QuizActivity.this, getString(R.string.elige_respuesta), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, getString(elige_respuesta), Toast.LENGTH_SHORT).show();
                 } else {
                     mostrarSiguientePregunta();
                 }
@@ -254,7 +255,7 @@ public class QuizActivity extends AppCompatActivity {
                     tiempoPreguntas.purge();
                     tiempoPreguntas.cancel();
 
-                    Toast.makeText(QuizActivity.this, "¡Se acabó el tiempo!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this, tiempo, Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(QuizActivity.this, ResultadosQuiz.class);
                     intent.putExtra("correctas", getRespuestasCorrectas());

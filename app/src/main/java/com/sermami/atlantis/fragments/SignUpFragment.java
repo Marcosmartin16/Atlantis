@@ -1,5 +1,8 @@
 package com.sermami.atlantis.fragments;
 
+import static com.sermami.atlantis.R.string.*;
+import static com.sermami.atlantis.R.string.errorRegistro;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +14,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -45,9 +47,9 @@ public class SignUpFragment extends Fragment {
 
 
         View myView = inflater.inflate(R.layout.signup_fragment, container, false);
-        inputemail = (EditText)myView.findViewById(R.id.etlogEmail);
-        inputpassword = (EditText)myView.findViewById(R.id.etlogPassword);
-        inputuser = (EditText)myView.findViewById(R.id.etUser);
+        inputemail = (EditText) myView.findViewById(R.id.etlogEmail);
+        inputpassword = (EditText) myView.findViewById(R.id.etlogPassword);
+        inputuser = (EditText) myView.findViewById(R.id.etUser);
         crear = (Button) myView.findViewById(R.id.btn_crear);
         pd = new ProgressDialog(getContext());
 
@@ -62,28 +64,27 @@ public class SignUpFragment extends Fragment {
         return myView;
 
     }
-    private void    autorizar(){
+
+    private void autorizar() {
         String email = inputemail.getText().toString();
         String user = inputuser.getText().toString();
         String password = inputpassword.getText().toString();
 
-        pd.setMessage("Espere a que se complete el registro...");
-        pd.setTitle("Registro");
+        pd.setMessage(getString(EsperandoRegistro));
+        pd.setTitle(getString(Registro));
         pd.setCanceledOnTouchOutside(false);
         pd.show();
-        mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
+                if (task.isSuccessful()) {
                     pd.dismiss();
                     Intent intent = new Intent(getActivity(), MainActivity.class);
-                    //intent.setFlags(Intent.FLA)
                     startActivity(intent);
-                    Toast.makeText(getContext(), "Registro completado",Toast.LENGTH_LONG).show();
-                }
-                else{
+                    Toast.makeText(getContext(), registroCompletado, Toast.LENGTH_LONG).show();
+                } else {
                     pd.dismiss();
-                    Toast.makeText(getContext(), "Error en el registro",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), errorRegistro, Toast.LENGTH_LONG).show();
                 }
             }
         });

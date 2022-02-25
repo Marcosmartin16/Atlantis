@@ -221,4 +221,12 @@
     <string name="descripcion_imagen_ajolote_ss">Imagen del ajolote la cual es utilizada en el Splash Screen</string>
     <string name="descripcion_pompa">Pompas utilizadas en el Splash Screen</string>
     <string name="elige_respuesta">Por favor, elige una respuesta</string>
+    <string name="loginCompletado">Login completado</string>
+    <string name="loginError">Error en el login</string>
+    <string name="Entrando">Entrando…</string>
+    <string name="EsperandoRegistro">Espere a que se complete el registro...</string>
+    <string name="Registro">Registro</string>
+    <string name="registroCompletado">Registro completado</string>
+    <string name="errorRegistro">Error en el registro</string>
+    <string name="tiempo">¡Se acabó el tiempo!</string>
 </resources>

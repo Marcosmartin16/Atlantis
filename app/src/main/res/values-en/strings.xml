@@ -217,4 +217,12 @@
     <string name="descripcion_imagen_ajolote">Image of an axolotl</string>
     <string name="email">Email</string>
     <string name="elige_respuesta">Please, select an answer</string>
+    <string name="loginCompletado">Login succesfully</string>
+    <string name="loginError">Error with the login</string>
+    <string name="Entrando">Entering…</string>
+    <string name="EsperandoRegistro">Waiting to complete the register</string>
+    <string name="Registro">Register</string>
+    <string name="registroCompletado">Register succesfully</string>
+    <string name="errorRegistro">Error in the register</string>
+    <string name="tiempo">Time is over!</string>
 </resources>
