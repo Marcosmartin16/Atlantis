@@ -127,7 +127,7 @@ public class ArrayListPreguntas {
             final ListaPreguntas pregunta2 = new ListaPreguntas("How big are puppies at birth?", "30 cm", "Just over 80 cm", "Just over 40 cm", "1,50 meters", "30 cm", "");
             final ListaPreguntas pregunta3 = new ListaPreguntas("What is your food exclusively composed of?", "Fishes", "Corals", "Crabs", "Starfishes", "Fishes", "");
             final ListaPreguntas pregunta4 = new ListaPreguntas("In spring, how long are they without going to the water?", "20 days", "2 months", "10 days", "5 weeks", "5 weeks", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Where do they spend most of their time?", "On land", "At mar", "In the mangroves", "In the rivers", "Mosquitoes", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("Where do they spend most of their time?", "On land", "At sea", "In the mangroves", "In the rivers", "At sea", "");
             final ListaPreguntas pregunta6 = new ListaPreguntas("Why do males fight?", "To see who has more food", "To see who is older", "To see who get more females", "To see who has more hair", "To see who get more females", "");
 
             listaPreguntas.add(pregunta1);
@@ -142,7 +142,7 @@ public class ArrayListPreguntas {
             final ListaPreguntas pregunta3 = new ListaPreguntas("¿De qué se compone exclusivamente su alimento?", "Peces", "Corales", "Cangrejos", "Estrellas de mar", "Peces", "");
             final ListaPreguntas pregunta4 = new ListaPreguntas("En primavera, ¿cuánto tiempo están sin ir al agua?", "20 días", "2 meses", "10 días", "5 semanas", "5 semanas", "");
             final ListaPreguntas pregunta5 = new ListaPreguntas("¿Dónde pasan casi todo el tiempo?", "En la tierra", "En el mar", "En los manglares", "En los ríos", "En el mar", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Por qué se pelean los machos?", "Por ver quién tiene más comida", "Por ver quién tiene más años", "Por ver quién consigue más hembras", "Por ver quién tiene más pelo", "Por ver quién tiene consigue más hembras", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Por qué se pelean los machos?", "Por ver quién tiene más comida", "Por ver quién tiene más años", "Por ver quién consigue más hembras", "Por ver quién tiene más pelo", "Por ver quién consigue más hembras", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);

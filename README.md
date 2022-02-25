@@ -11,7 +11,7 @@
 4. [Main Activities](#MA)
 
 
-## Demo de cómo funciona la app:<a name="demo"></a>
+## Demo de cómo funciona la app en castellano con modo oscuro y en inglés con modo claro:<a name="demo"></a>
 
 ![imagenes](https://github.com/Marcosmartin16/Atlantis/blob/Sergio/imagenes/demo_atlantis.gif)
 
