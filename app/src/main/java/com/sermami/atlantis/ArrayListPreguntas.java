@@ -161,12 +161,12 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("At what depth do corals grow?", "More than 60 meters", "Less than 60 meters", "More than 70 meters", "on the surface", "Less than 60 meters", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("What is a reef made of?", "Little animals", "Corals", "Sea stars", "All are correct", "All are correct", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("What color do they get when they suffer stress?", "Blue", "Red", "White","Multicolored", "White", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("What is the largest reef?", "The Australian Great Barrier Reef", "The Belize Barrier Reef", "Raja Ampat Reef","Palancar Reef", "The Australian Great Barrier Reef", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("How do photosynthetic corals get food?", "Of plankton", "Of small animals", "With the sunlight", "Remains in the background", "With the sunlight", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("Coral dangers?", "Climate change", "Ocean pollution", "Water acidification", "All are correct", "All are correct", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -175,12 +175,12 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿En que profundidad crecen los corales?", "Mas de 60 metros", "Menos de 60 metros", "Mas de 70 metros", "En la superficie", "Menos de 60 metros", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿De que esta formado un arrecife?", "Pequeños animales", "Corales", "Estrellas de mar", "Todas son correctas", "Todas son correctas", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿De que color se ponen cuando sufen estres?", "Azul", "Rojo", "Blanco", "Multicolor", "Blanco", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Cual es el arrecife de mayor tamaño?", "La gran barrera de coral Australiana", "La barrera de coral de Belice", "Arrecife de Raja Ampat", "Arrecife Palancar", "La gran barrera de coral Australiana", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿Como consiguen los corales fotosinteticos el alimento?", "Del plancton", "De pequeños animales", "Con la luz del sol", "Restos en el fondo", "Con la luz del sol", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Peligros de los corales?", "Cambio climatico", "Contaminacion de los oceanos", "Acidificacion del agua", "Todas son correctas", "Todas son correctas", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -197,12 +197,12 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("Anemones are?", "Vertebrates", "Invertebrates","Mammals","None is correct", "Invertebrates", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("How long can their tentacles be?", "50 cm", "30 cm", "50 m", "20 cm", "50 cm", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("At what minimum depth are they found?", "2 m", "4 m", "5 m", "20 m", "5m", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("Where are they usually found?","Seas", "Bays", "Beaches", "All are correct", "Bays", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("What danger causes anemones?", "Severe hives", "Death","Swelling","Neither", "Severe hives", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("Color of anemones?", "Red", "Blue", "Yellow", "Pink", "Pink", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -211,12 +211,12 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿Las anemonas son?", "Vertebrados", "Invertebrados", "Mamiferos", "Ninguna es correcta", "Invertebrados", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Cuanto pueden llegar a medir sus tentaculos?", "50 cm", "30 cm", "50 m", "20 cm", "50 cm", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿A que profundidad minima se encuentran?", "2 m", "4 m", "5 m", "20 m", "5 m", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Donde se suelen encontrar?", "Mares", "Bahias", "Playas", "Todas son correctas", "Bahias", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿Que peligro causa las anemonas?", "Graves urticarias", "Muerte", "Hinchazon", "Ninguno", "Graves urticarias", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Color de las anemonas?", "Rojo", "Azul", "Amarillo", "Rosa", "Rosa", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -233,12 +233,12 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("Blowfish skill?", "Spit toxins","Inflate", "Swim fast", "Camouflage", "Inflate", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("Why does it inflate?", "To defend","Because they are hungry","Due to the large amount of stored toxins","Seem harmless","To defend", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("What foods do puffer fish eat?", "Algae and vertebrate animals","All kinds of animals", "Algae and invertebrate animals","plankton", "Algae and invertebrate animals", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("Where are they?", "Cold areas", "Tropical and subtropical waters", "Rivers","None is correct", "Tropical and subtropical waters", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("What are they inflated with?", "Water", "Air", "Sand", "Toxins", "Water", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("How big can a dwarf puffer fish be?", "50 cm", "2,5 cm", "70,5 cm", "1 m", "2,5 cm", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -247,12 +247,12 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿Habilidad pez globo?", "Escupir toxinas", "Inflarse", "Nadar rapido", "Camuflarse", "Inflarse", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Porque se infla?", "Para defenderse", "Debido a que tiene hambre", "Debido a la gran cantidad de toxinas almacenadas", "Parecer inofensivo", "Para defenderse", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Que alimentos come el pez globo?", "Algas y animales vertebrados", "Todo tipo de animales", "Algas y animales invertebrados", "Plancton", "Algas y animales invertebrados", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Donde se encuentran?", "Zonas frias", "Aguas tropicales y subtropicales", "Rios", "Ninguna es correcta", "Aguas tropicales y subtropicales", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De que se inflan?", "Agua", "Aire", "Arena", "Toxinas", "Aire", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Cuanto puede medir un pez globo enano?", "50 cm", "2,5 cm", "70,5 cm", "1 m", "2,5 cm", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -342,12 +342,12 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("What kind of animal is the turtle?", "Mammal", "Reptile", "Bird", "Rotifer", "Reptile", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("Turtles are?", "Omnivores", "Carnivores", "Herbivores", "None is correct", "Omnivores", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("Turtle dangers?", "The fishing nets", "The dirt", "Climate change", "All are correct", "All are correct", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("Where do turtles live?", "Rivers", "Cold seas", "Warm seas", "Swimming pools", "Warm seas", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the turtle not feed on?", "Corals", "Algae", "Fish", "Plankton", "Plankton", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("What does he use his shell for?", "To defend against predators", "To store food", "For sleeping", "To procreate", "To defend against predators", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -356,12 +356,12 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿Que clase de animal es la tortuga?", "Mamifero", "Reptil", "Ave", "Rotífero", "Reptil", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Las tortugas son?", "Omnívoras", "Carnívoras", "Herbívoras", "Ninguna es correcta", "Omnívoras", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Peligros de las tortugas?", "Las redes de pesca", "La suciedad", "El cambio climático", "Todas son correctas", "Todas son correctas", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Donde habitan las  tortugas?", "Rios", "Mares frios", "Mares calidos", "Piscinas", "Mares calidos", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta la tortuga?", "Corales", "Algas", "Peces", "Plancton", "Plancton", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Para que usa su caparazón?", "Para defenderse de depredadores", "Para almacenar comida", "Para dormir", "Para procrear", "Para defenderse de depredadores", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);

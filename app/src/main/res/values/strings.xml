@@ -8,16 +8,67 @@
 
     <!-- Historias Marcos -->
     <string name="historia_tortuga">
-        Soy la tortuga
+        Las tortugas son reptiles. El rasgo más característico de las tortugas es su caparazón. Les sirve para defenderse de sus depredadores, pero no es tan fuerte como se piensa.
+        Está compuesto por 50 huesos, nervios, cartílago y riego sanguíneo. Si se les daña el caparazón, las tortugas sienten dolor y pueden sangrar.
+        Del caparazón le salen las patas de atrás y de delante, la cabeza y la cola.\n \n
+
+        La mayoría son omnívoras. Su alimentación se basa básicamente en: peces, algas, moluscos, crustáceos, corales, plantas y esponjas marinas.\n \n
+
+        Las tortugas habitan principalmente en los mares tropicales y subtropicales de todo el planeta, les gustan las aguas cálidas, de temperaturas
+        superiores a 20º.\n \n
+
+        Pueden vivir más de 100 años. Varía un poco según la especie. Tampoco se puede saber con exactitud ya que los veterinarios/biólogos
+        marinos no tienen mucho control sobre ellas, debido a las grandes migraciones que hacen.\n \n
+
+        Todas las especies de tortugas marinas se encuentran en peligro de extinción o son vulnerables de estarlo pronto. Las principales amenzas son
+        las redes de pesca que las atrapan, la destruccion de su habitat por la suciedad o el cambio climático.\n \n
     </string>
     <string name="historia_coral">
-        Soy el coral
+        Un arrecife es un gran grupo de rocas en el fondo del océano. ¿Sabes qué un arrecife está realmente vivo y cubierto con
+        animales muy pequeños llamados corales? Estos animales pegan sus minúsculos esqueletos a las rocas, haciendo sus propias
+        casas, así que terminan permaneciendo al mismo lugar toda su vida.\n \n
+
+        Rara vez se encuentran solos, ya que se juntan con muchos otros corales formando lo que se conoce como colonias o selvas de mar.
+        Igual que en la selva, los arrecifes son uno ecosistemas más diversos de la tierra, donde se juntan casi la cuarta parte de las
+        especies marinas, como peces , estrellas de mar, cangrejos, almejas, serpientes de mar, etc.\n \n
+
+        Los arrecifes de coral son ecosistemas muy frágiles, en parte, porque su sensibilidad a los cambios de temperatura del agua.
+        Están en peligro por el cambio climático, la acidificación de los océanos y la contaminación del agua. Si los arrecifes de coral
+        están bajo mucho estrés, pueden expulsar a las algas que viven en ellos y se vuelven completamente blancos. Esto no significa necesariamente
+        que el coral está muerto, aunque se vuelve más vulnerable a la muerte, especialmente si el estrés continúa durante un largo período de tiempo.\n \n
+
+        Se pueden diferenciar dependiendo de como consiguen el alimento. Los corales fotosinteticos necesitan la luz del sol para conseguir alimento.
+        El resto de corales obtienen el alimento atrapando plancton.\n \n
+
+        Por eso los corales requieren de luz solar y crecen en agua clara y poco profunda, normalmente a profundidades menores de 60 metros.\n \n
+
+        El arrecife de mayor longitud es la Gran Barrera de Arrecifes, en la costa de Queensland en Australia: tiene más de 2000 km\n \n
     </string>
     <string name="historia_pez">
-       Soy el pez
+        El pez globo desarrolló su famosa habilidad para inflarse debido a que su estilo para nadar es lento y torpe. Eso los hace vulnerables frente a los depredadores.
+        En lugar de escapar, el pez globo utilizar su estómago muy elástico y su capacidad de tomar rápidamente grandes cantidades de agua para que se convierta en una bola
+        prácticamente increíble que dobla varias veces su tamaño normal. Algunas especies también tienen espinas en la piel para evitar ser comidas.\n \n
+
+        Un depredador que logra atrapar a un pez globo antes de que se infle, no se sentirá afortunado por mucho tiempo. Casi todos los peces globo contienen una toxina, que hace que
+        el pez globo tenga un sabor muy desagradable, a menudo letal para los peces. Para los humanos tambien es muy peligroso siendo uno de los venenos mas toxicos y que todavia no tiene
+        antidoto.\n \n
+
+        La mayoría se encuentran en las aguas oceánicas tropicales y subtropicales, pero algunas especies viven en aguas dulces y salobres.\n \n
+
+        Su tamaño varía, desde el pez globo enano de 2,5 centímetros de largo al gigante pez globo de agua dulce, que puede crecer
+        hasta más de 61 centímetros de longitud.\n \n
+
+        La dieta del pez globo incluye sobre todo animales invertebrados y algas. Los especímenes más grandes pueden incluso partir cáscaras con su pico duro y comer almejas, mejillones y mariscos.\n \n
     </string>
     <string name="historia_anemona">
-        Soy la anemona
+        Las anémonas son invertebrados de color rosa con aspecto vegetal y con largos tentáculos que se mueven. Las anemonas pueden tener dos formas diferentes.
+        Una forma más pequeña, con un diámetro de 2 a 5 cm, y que vive sobre paredes rocosas bien iluminadas y fondos de bloques hasta los 5 m de profundidad. En cambio la otra es mas grande de hasta 15 cm de
+        diametro y con tentaculos de 50 cm viven en las mismas situaciones pero a mayor profundidad.\n \n
+
+        La anémona de mar, puede ser muy urticante. Cuando se toca con los dedos, las células urticantes atacan la piel, pero sin perforarla, y los tentáculos se quedan adheridos a los dedos. Como los tentáculos
+        se desprenden con facilidad, hay siempre peligro de que lleguen a zonas más delicadas, como la cara, el cuello, la parte interior de los brazo, etc., causando lesiones.\n \n
+
+        Suelen encontrarse en las aguas poco profundas y tranquilas como bahías, ademas soportan la suciedad del agua. Se encuentran en el mar mediterraneo.\n \n
     </string>
 
     <!-- Historias Miguel -->

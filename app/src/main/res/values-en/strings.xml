@@ -9,16 +9,64 @@
 
     <!-- Historias Marcos -->
     <string name="historia_tortuga">
-        I am the sea turtle
+        Turtles are reptiles. The most characteristic feature of turtles is their shell. It helps them defend themselves against their predators, but it is not as strong as you think.
+        It is composed of 50 bones, nerves, cartilage and blood supply. If their shell is damaged, turtles feel pain and can bleed.
+        The back and front legs, the head and the tail come out of the shell.\n \n
+
+        Most are omnivores. Their diet is basically based on: fish, algae, molluscs, crustaceans, corals, plants and marine sponges.\n \n
+
+        Turtles live mainly in tropical and subtropical seas around the planet, they like warm waters, temperatures higher than 20º.\n \n
+
+        They can live more than 100 years. It varies a bit depending on the species. It is also not possible to know exactly since the veterinarians/biologists
+        Marines do not have much control over them, due to the great migrations they make.\n \n
+
+        All species of sea turtles are in danger of extinction or are vulnerable to becoming so soon. The main threats are
+        the fishing nets that trap them, the destruction of their habitat by dirt or climate change.\n \n
     </string>
     <string name="historia_coral">
-        I am the coral
+        A reef is a large group of rocks at the bottom of the ocean. Do you know that a reef is really alive and covered with
+        very small animals called corals? These animals glue their tiny skeletons to rocks, making their own
+        houses, so they end up staying in the same place all their lives.\n \n
+
+        They are rarely found alone, as they congregate with many other corals forming what are known as colonies or sea forests.
+        As in the jungle, reefs are one of the most diverse ecosystems on earth, where almost a quarter of the
+        marine species, such as fish, starfish, crabs, clams, sea snakes, etc.\n \n
+
+        Coral reefs are very fragile ecosystems, in part because of their sensitivity to changes in water temperature.
+        They are endangered by climate change, ocean acidification and water pollution. If the coral reefs
+        they are under a lot of stress, they can expel the algae that live in them and turn completely white. This does not necessarily mean
+        that the coral is dead, although it becomes more vulnerable to death, especially if the stress continues for a long period of time.\n \n
+
+        They can be differentiated depending on how they get food. Photosynthetic corals need sunlight to get food. The rest of the corals obtain food by trapping plankton.\n \n
+
+        That is why corals require sunlight and grow in clear, shallow water, usually at depths less than 60 meters.\n \n
+
+        The longest reef is the Great Barrier Reef, off the coast of Queensland in Australia: it is more than 2000 km.\n \n
     </string>
     <string name="historia_pez">
-       I am the puffer fish
+        The puffer fish developed its famous ability to inflate itself due to its slow and clumsy swimming style. That makes them vulnerable to predators.
+        Instead of escaping, pufferfish use their highly elastic stomach and ability to quickly take in large amounts of water (and even air if necessary).
+        so that it becomes a practically unbelievable ball that doubles several times its normal size. Some species also have spines on their skin to avoid being eaten.\n \n
+
+        A predator that manages to catch a puffer fish before it inflates will not feel lucky for long. Almost all puffer fish contain a toxin, which causes
+        puffer fish have a very unpleasant taste, often lethal to fish. For humans it is also very dangerous being one of the most toxic poisons and that still does not have
+        antidote.\n \n
+
+        Most are found in tropical and subtropical ocean waters, but some species live in fresh and brackish waters.\n \n
+
+        Their size varies, from the 1-inch-long dwarf puffer fish to the giant freshwater puffer fish, which can grow up to more than 61 centimeters in length.\n \n
+
+        The diet of the puffer fish includes mainly invertebrate animals and algae. Larger specimens can even crack open shells with their hard beak and eat clams, mussels, and shellfish.\n \n
     </string>
     <string name="historia_anemona">
-        I am the sea anemone
+        Anemones are pink, plant-like invertebrates with long, wriggling tentacles. Anemones can have two different shapes.
+        A smaller form, 2-5 cm in diameter, living on well-lit rock faces and blocky bottoms down to 5 m depth. On the other hand, the other is larger, up to 15 cm in length.
+        diameter and with 50 cm tentacles live in the same situations but at greater depths.\n \n
+
+        The sea anemone can be very stinging. When touched with the fingers, the stinging cells attack the skin, but without piercing it, and the tentacles remain attached to the fingers. like the tentacles
+        they come off easily, there is always a danger that they will reach more delicate areas, such as the face, neck, the inside of the arms, etc., causing injuries.\n \n
+
+        They are usually found in shallow and calm waters such as bays, they also support the dirt of the water. They are found in the Mediterranean Sea.\n \n
     </string>
 
     <!-- Historias Miguel -->
