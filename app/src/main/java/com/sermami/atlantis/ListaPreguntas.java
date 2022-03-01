@@ -23,9 +23,7 @@ public class ListaPreguntas {
         return respuesta1;
     }
 
-    public String getRespuesta2() {
-        return respuesta2;
-    }
+    public String getRespuesta2() { return respuesta2; }
 
     public String getRespuesta3() {
         return respuesta3;
@@ -44,6 +42,5 @@ public class ListaPreguntas {
     }
 
     public void setRespuestaUsuario(String respuestaUsuario) {
-        this.respuestaUsuario = respuestaUsuario;
-    }
+        this.respuestaUsuario = respuestaUsuario; }
 }
