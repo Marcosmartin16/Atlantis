@@ -416,8 +416,8 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("Where do the narwhals live?", "Mediterranean sea", "Indic Sea", "Victoria Lake", "North of Atlantic Ocean", "North of Atlantic Ocean", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("Which narwhals do have horn?", "Males", "Females", "Youngs", "Adults", "Males", "");
             final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
             final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
             final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
