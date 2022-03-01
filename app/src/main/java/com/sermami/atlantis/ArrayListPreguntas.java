@@ -392,9 +392,9 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿Cuanto pesa aproximadamente una ballena adulta?", "Entre 100 y 120 toneladas", "10000 Kg, más o menos", "Entre 50 y 60 toneladas", " Aproximadamente 200 toneladas", "Entre 100 y 120 toneladas", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Cual es el animal mas grande de la historia de la Tierra?", "El megalodón", "Diplodocus", "Ballena azul", "Tiranosaurus Rex", "Ballena azul", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Antiguamente la población más numerosa era la de la Antártida, con alrededor de 239 000 ejemplares. ¿Cual es su numero actual tras la caza?", "2000", "5000", "100", "300000", "2000", "");
             final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
             final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
             final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
