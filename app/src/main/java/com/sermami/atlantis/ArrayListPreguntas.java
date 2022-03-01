@@ -283,7 +283,7 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿Donde NO habitan las focas?", "Oceano Atlántico", "Costa de Rusia", "Aguas tropicales", "Ártico", "Aguas tropicales", "");
             final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
             final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
             final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
