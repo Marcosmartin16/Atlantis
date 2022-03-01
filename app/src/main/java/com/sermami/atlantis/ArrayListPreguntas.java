@@ -269,12 +269,12 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("Where DONT'T the phocas live?", "Atlantic Ocean", "Russian Coast", "Tropical waters", "Artic", "Tropical waters", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("How do de phocas organize?", "Pairs", "Small tribes", "One male and several females", "All the answers above", "All the answers above", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("How much do the marine elephants weight?", "A tone", "4500 Kg", "500 Kg", "10 tones", "4500 Kg", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("Which is the only phoca that lives in sweet water?", "Marine Lion" , "Baikal Phoca", "Marine Elephant", "Emperor Phoca", "Baikal Phoca", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("Why do the phocas don't suffer from cold?", "The use coat", "The make a campfire", "Due to theirs hair", "Due to theirs fat", "Due to theirs fat", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("How much height can the Weddel phoca submerge?", "1 Km", "600 m", "2 Km", "100 m", "600 m", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -284,11 +284,11 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta6);
         } else {
             final ListaPreguntas pregunta1 = new ListaPreguntas("¿Donde NO habitan las focas?", "Oceano Atlántico", "Costa de Rusia", "Aguas tropicales", "Ártico", "Aguas tropicales", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Como se organizan las focas?", "Parejas", "Pequeñas tribus", "Un macho y muchas hembras", "Todas las anteriores", "Todas las anteriores", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Cuanto pesan los elefantes marinos?", "Una tonelada", "4500 Kg", "500 Kg", "10 tones", "4500 Kg", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Cual es la unica foca que vive en agua dulce?", "Leon Marino", "Foca del Baikal", "Elefante Marino", "Foca emperador", "Foca del Baikal", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿Como hacen las focas para no pasar frio?", "Se ponen abrigo", "Hacen una hoguera", "Gracias al pelaje", "Gracias a su grasa", "Gracias a su grasa", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Hasta que profundidad pueden sumergirse la foca de Wedell?", "1 Km", "600 m", "2 Km", "100 m", "600 m", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
