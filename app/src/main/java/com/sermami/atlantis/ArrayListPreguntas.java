@@ -418,10 +418,10 @@ public class ArrayListPreguntas {
         if (Locale.getDefault().getISO3Language().equals("eng")) {
             final ListaPreguntas pregunta1 = new ListaPreguntas("Where do the narwhals live?", "Mediterranean sea", "Indic Sea", "Victoria Lake", "North of Atlantic Ocean", "North of Atlantic Ocean", "");
             final ListaPreguntas pregunta2 = new ListaPreguntas("Which narwhals do have horn?", "Males", "Females", "Youngs", "Adults", "Males", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("In which season do the narwhals mostly eat?", "Spring", "Verano", "Fall", "Winter", "Winter", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("How much time can the narwhals submerge?", "10 minutes", "30 minutes", "60 minutes", "Two hours", "30 minutos", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("Which is the endangered state of the narwhals?", "Critical danger", "Vulnerable", "Near Threatened", "Endangered", "Near Threatened", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("How much time can the female narwhals live?", "10 years", "120 years", "50 years", "150 years", "120 years", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -432,10 +432,10 @@ public class ArrayListPreguntas {
         } else {
             final ListaPreguntas pregunta1 = new ListaPreguntas("¿Dónde habitan los narvales?", "Mar Mediterraneo", "Mar Índico", "Lago Victoria", "Norte del océano Atlántico", "Norte del océano Atlántico", "");
             final ListaPreguntas pregunta2 = new ListaPreguntas("¿Que narvales tienen cuerno?", "Machos", "Hembras", "Niños", "Adultos", "Machos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿En qué época del año suelen alimentarse los narvales?", "Primavera", "Verano", "Otoño", "Invierno", "Invierno", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Cuánto tiempo pueden sumergirse los narvales?", "10 minutos", "30 minutos", "60 minutos", "Dos horas", "30 minutos", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿Cuál es el estado de riesgo de los narvales?", "Especie en peligro crítico", "Especie vulnerable", "Especie casi amenazada", "Especie en peligro", "Especie casi amenazada", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Cuántos años pueden llegar a vivir los narvales hembra?", "10 años", "120 años", "50 años", "150 años", "120 años", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
