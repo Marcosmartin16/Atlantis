@@ -378,12 +378,12 @@ public class ArrayListPreguntas {
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
 
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("How much does a blue whale weight?", "Between 100 and 120 tons", "10000 Kg, more or less", "Between 50 and 60 tons", "Almost 200 tons", "Between 100 and 120 tons", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("Which is the biggest animal in The Earth history?", "Megalodon", "Diplodocus", "Blue whale", "Tiranosaurus Rex", "Blue whale", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("The former number of blue whales in the Antartic was around 239000. Which is their number now after the hunt?", "2000", "5000", "100", "300000", "2000", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("Which animal mostly composes blue whales' diet?", "Krill", "Crabs", "Salmon", "Squids", "Krill", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("How much food can a blue whale consume in a whole day?", "40 Kg", "400 Kg", "4000 Kg", "40000 Kg", "40000 Kg", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("Which is the blue whale barbs function?", "For courtship", "For filtering the water when it eats", "For warm itself on the cold waters of Artic Sea", "For protecting itself from its predators", "For filtering the water when it eats", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -395,9 +395,10 @@ public class ArrayListPreguntas {
             final ListaPreguntas pregunta1 = new ListaPreguntas("¿Cuanto pesa aproximadamente una ballena adulta?", "Entre 100 y 120 toneladas", "10000 Kg, más o menos", "Entre 50 y 60 toneladas", " Aproximadamente 200 toneladas", "Entre 100 y 120 toneladas", "");
             final ListaPreguntas pregunta2 = new ListaPreguntas("¿Cual es el animal mas grande de la historia de la Tierra?", "El megalodón", "Diplodocus", "Ballena azul", "Tiranosaurus Rex", "Ballena azul", "");
             final ListaPreguntas pregunta3 = new ListaPreguntas("¿Antiguamente la población más numerosa era la de la Antártida, con alrededor de 239 000 ejemplares. ¿Cual es su numero actual tras la caza?", "2000", "5000", "100", "300000", "2000", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De que se alimentan mayoritariamente las ballenas azules?", "Krill", "Cangrejos", "Salmones", "Calamares", "Krill", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿Cuanta comida puede consumir una ballena en un día?", "40 Kg", "400 Kg", "4000 Kg", "40000 Kg", "40000 Kg", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Para que sirve la barba de la ballena azul?", "Para ligar", "Para filtrar el agua a la hora de comer", "Para abrigarse en las aguas Árticas", "Para defenderse de sus depredadores", "Para filtrar el agua a la hora de comer", "");
+
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
