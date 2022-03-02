@@ -110,6 +110,7 @@ public class HistoriaActivity extends AppCompatActivity {
                 Intent intent = new Intent(HistoriaActivity.this, QuizActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
     }

@@ -81,6 +81,7 @@ public class SignUpFragment extends Fragment {
                     pd.dismiss();
                     Intent intent = new Intent(getActivity(), MainActivity.class);
                     startActivity(intent);
+                    getActivity().finish();
                     Toast.makeText(getContext(), registroCompletado, Toast.LENGTH_LONG).show();
                 } else {
                     pd.dismiss();

@@ -306,12 +306,12 @@ public class ArrayListPreguntas {
 
         final List<ListaPreguntas> listaPreguntas = new ArrayList<>();
         if (Locale.getDefault().getISO3Language().equals("eng")) {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("From which place is the axolotl?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("Who is the main predator of the axolotl?", "Tilapia", "Carps", "Humans", "Beavers", "Humans", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("Why has the axolotl been prized since the past?", "It gives good luck", "Good looking", "Nutritive properties and flavor", "It gets along well with other pets", "Nutritive properties and flavor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("Of what animal retains the ancient characteristics?", "Frog", "Crab", "Toad", "Salamander", "Salamander", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("Which of these animals does the axolotl not feed on?", "Worms", "Mosquitoes", "Crustaceans", "Larvae", "Mosquitoes", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("What must be done to prevent the axolotl extinction?", "Repopulate and not pollute their habitat", "Stop hunting them", "Stom eating them", "Search other habitats for it", "Repopulate and not pollute their habitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("What family does the frilled shark belong to?", "Sphyrnidae", "Chlamydoselachidae", "Centrophoridae", "Dalatiidae", "Chlamydoselachidae", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("At what depths has it been found in Suruga Bay?", "250-300 metres", "300-400 metres", "20-40 metres", "50-200 metres", "50-200 metres", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("How is it often called?", "Guide Fossil", "Living Fossil", "Dome Fossil", "Helix Fossil", "Living Fossil", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("How long can it be?", "2 meters", "4 meters", "5 meters", "3 meters", "4 meters", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("Like what animal catches its prey?", "Eel", "Snake", "Lobster", "Killer whale", "Snake", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("How long can the gestation period be?", "3 and a half years", "2 and a half years", "1 and a half years", "Half a year", "3 and a half years", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);
@@ -320,12 +320,12 @@ public class ArrayListPreguntas {
             listaPreguntas.add(pregunta5);
             listaPreguntas.add(pregunta6);
         } else {
-            final ListaPreguntas pregunta1 = new ListaPreguntas("¿De dónde es originario el ajolote?", "Lago de Xochimilco", "Lago de Yuriria", "Lagunas de Montebello", "Lago de Chapala", "Lago de Xochimilco", "");
-            final ListaPreguntas pregunta2 = new ListaPreguntas("¿Quién es el principal depredador del ajolote?", "Tilapias", "Carpas", "Humanos", "Castores", "Humanos", "");
-            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Por qué ha sido apreciado el ajolote desde el pasado?", "Da buena suerte", "Bonita apariencia", "Propiedades nutritivas y sabor", "Se lleva bien con otras mascotas", "Propiedades nutritivas y sabor", "");
-            final ListaPreguntas pregunta4 = new ListaPreguntas("¿De qué animal conserva las características milenarias?", "Rana", "Cangrejo", "Sapo", "Salamandra", "Salamandra", "");
-            final ListaPreguntas pregunta5 = new ListaPreguntas("¿De cuáles de estos animales no se alimenta el ajolote?", "Gusanos", "Mosquitos", "Crustáceos", "Larvas", "Mosquitos", "");
-            final ListaPreguntas pregunta6 = new ListaPreguntas("¿Qué hay que hacer para que no se extinga el ajolote?", "Repoblar y no contaminar su hábitat", "Dejar de cazarlos", "No comérselos", "Cambiarle de hábitat", "Repoblar y no contaminar su hábitat", "");
+            final ListaPreguntas pregunta1 = new ListaPreguntas("¿A qué familia corresponde el tiburón anguila?", "Sphyrnidae", "Chlamydoselachidae", "Centrophoridae", "Dalatiidae", "Chlamydoselachidae", "");
+            final ListaPreguntas pregunta2 = new ListaPreguntas("¿A qué profundidades se ha encontrado en la bahía de Suruga?", "250-300m", "300-400m", "20-40m", "50-200m", "50-200m", "");
+            final ListaPreguntas pregunta3 = new ListaPreguntas("¿Cómo es llamado a menudo?", "Fósil guía", "Fósil viviente", "Fósil domo", "Fósil hélix", "Fósil viviente", "");
+            final ListaPreguntas pregunta4 = new ListaPreguntas("¿Qué longitud puede alcanzar?", "2 metros", "4 metros", "5 metros", "3 metros", "4 metros", "");
+            final ListaPreguntas pregunta5 = new ListaPreguntas("¿Como qué animal captura sus presas?", "Anguila", "Serpiente", "Langosta", "Orca", "Serpiente", "");
+            final ListaPreguntas pregunta6 = new ListaPreguntas("¿De cuánto puede ser el período de gestación?", "3 años y medio", "2 años y medio", "1 año y medio", "Medio año", "3 años y medio", "");
 
             listaPreguntas.add(pregunta1);
             listaPreguntas.add(pregunta2);

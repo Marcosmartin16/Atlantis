@@ -202,7 +202,7 @@ public class QuizActivity extends AppCompatActivity {
         posActualPregunta++;
 
         if ((posActualPregunta + 1) == listaPreguntas.size()) {
-            siguiente.setText("¡Quiz terminado!");
+            siguiente.setText(R.string.quiz_terminado);
         }
 
         if (posActualPregunta < listaPreguntas.size()) {

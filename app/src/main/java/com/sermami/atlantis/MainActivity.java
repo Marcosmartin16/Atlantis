@@ -1,11 +1,17 @@
 package com.sermami.atlantis;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.cardview.widget.CardView;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -68,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -79,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -90,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -101,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -112,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -123,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -134,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -145,6 +159,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -156,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -167,6 +183,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -178,13 +195,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), HistoriaActivity.class);
                 intent.putExtra("temaElegido", temaElegido);
                 startActivity(intent);
+                finish();
             }
         });
+
+
     }
 
-    public String getTemaElegido() {
-        return temaElegido;
-    }
 
     public void setTemaElegido(String temaElegido) {
         this.temaElegido = temaElegido;
